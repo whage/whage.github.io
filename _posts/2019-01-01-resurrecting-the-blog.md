@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Resurrection"
+title:  "Resurrecting the blog"
 date:   2019-01-01 00:00:00 +0100
 categories: update
 tags: personal
