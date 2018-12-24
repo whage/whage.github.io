@@ -1,0 +1,44 @@
+.centering-wrapper {
+  text-align: center;
+}
+.centering-wrapper * {
+   -webkit-box-sizing: border-box; 
+}
+.progress-container {
+  display: inline-block;
+  max-width: 100%;
+  margin: 40px auto;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.progress-container .progress-bar {
+  margin: 0;
+  height: 36px;
+  line-height: 36px;
+  text-align: left;
+  text-overflow: clip;
+  overflow: hidden;
+  z-index: 0;
+}
+.progress-container .progress-bar.negative {
+  padding-left: 30px;
+  margin-right: 30px;
+  width: 100%;
+  background: #fff;
+  color: #000;
+  z-index: 1;
+}
+.progress-container .progress-bar.positive {
+  width: 0;
+  position: absolute;
+  background: #2ba0c5;
+  color: #fff;
+  z-index: 10;
+}
+.progress-container .progress-bar.positive span {
+  padding-left: 30px;
+  /* need this span to fill in the left padding, otherwise it would be background colored */
+}
