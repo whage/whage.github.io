@@ -23,7 +23,7 @@ I'll be publishing some articles that I've been secretly drafting.
 Here are the goals I hope to accomplish with this blog:
 - learn how to write quickly and concisely - posts that are actually enjoyable to read
 - keep a record of professional / personal events
-- motivate me to get a deeper inderstanding of things - deep enough so I can write about them
+- motivate me to get a deeper understanding of things - deep enough so I can write about them
 - help me focus more on some technologies I find interesting
 
 [imi]: https://www.linkedin.com/in/turi-imre-92070636/
