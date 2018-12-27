@@ -10,6 +10,8 @@ It feels like it's been years since I last wrote anything here. A lot must have 
 Many things happened indeed. I got married, I had a great honeymoon in Tuscany, I've done a lot of work as the sole full time developer at Bioscreen and since september I'm back in school finally officially studying CS and software engineering.
 I sincerely hope that will help me beat my ever-present impostor syndrome for good.
 
+<!--more-->
+
 It is really hard working full time, going to school and having a life at the same time ...
 Anyways, I'm posting this because I want to set some goals and make them public. Here we go:
 

@@ -19,6 +19,9 @@ description: my adventures in software development
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+show_excerpts: true
+excerpt_separator: <!--more-->
+
 #twitter_username: jekyllrb
 github_username: whage
 linkedin_username: andras-sallai

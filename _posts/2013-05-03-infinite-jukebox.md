@@ -10,6 +10,8 @@ In online poker - or poker in general - the term 'grinder' or 'grinding'
 refers to the very monotonous and long lasting activity of playing many hands over the course of long hours.
 I hate poker jargon with a passion but find this one rather fitting. It's quite appropriate for writing code as well.<br>
 
+<!--more-->
+
 When I do something that requires a lot of concentration I either need complete scilence or a very monotonous 'noise' or some similar music to.
 I recently found [echo nest][echo-nest], a group of fantastic software devs who are concerned with analyzing music.
 One of their creations was [this][jukebox], The Infinite Jukebox.

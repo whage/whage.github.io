@@ -9,6 +9,9 @@ tags: font awesome php microscript
 Some sites I built use the [Font Awesome][font-awesome-icons] icon set.
 The source is pulled from the [Bootstrap][bootstrap] [CDN][cdn] and whenever they updated it,
 something kept breaking because my sites used the last version.
+
+<!--more-->
+
 There are probably better solutions, this was a really quick idea and a quick implementation.
 The following php script paired with a [cronjob][cronjob-php]
 checks the current version number on the Font Awesome page and in case I'm using an older version, it sends me an email to take action.

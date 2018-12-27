@@ -7,6 +7,9 @@ tags: progress bar css javascript
 ---
 
 A good friend of mine, the founder of [Boomla][boomla], a "website OS" as he calls it suggested I improve my progress bar design by making its text change color pixel by pixel as the progress bar passes through.
+
+<!--more-->
+
 The idea is to have two identical divs on top of each other with different text and background color and slowly extending the top one over the other. I have not yet seen such a progress bar anywhere on the internet,
 it might even start a revolution! :O
 

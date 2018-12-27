@@ -8,6 +8,8 @@ tags: php web crawler curl
 
 I'm currently reading the book called 'Webbots, spiders and screen scrapers - a guide to developing internet agents with PHP' by Michael Schrenk and I really enjoy it partly because it is something new to me and partly because the author seems to pay attention to many small details. I have certainly seen cleaner code than in the book but it makes good points and shows simple yet useful examples.
 
+<!--more-->
+
 Here is something interesting I learned today, that I'm not sure I would have learned otherwise:
 
 > "The last aspect of verifying that you're using correct URLs is ensuring that your referer values correctly simulate followed links. You should set the referer to the last target page you requested. This is important for several reasons. For example, some image servers use the referer value to verify that a request for an image is preceded by a request for the entire web page. This defeats bandwidth hijacking, the practice of sourcing images from other people's domains. In addition, websites may defeat deep linking, or linking to a website's inner pages, by examining the referer to verify that people followed a prescribed succession of links to get to a specific point within a website."

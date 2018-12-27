@@ -12,6 +12,8 @@ I decided to resurrect my old blog that I started - and then abandoned - in 2013
 I had to look up my old posts, some of them I had to recover from [The Wayback Machine][wayback-machine]
 because I haven't kept a copy of them.
 
+<!--more-->
+
 The recovery process was very nostalgic.
 [My first post][jukebox-post] even mentions my past in online poker.
 There is [this post][magento-post] where I describe my experience with Magento that I tried to learn in about a week to create a webshop for a local company. It was a terrible failure as I couldn't deliever a single webpage in 3 weeks and the contractor got so upset with me he didn't pick up the phone for a month. I had no idea about webshops or backend development.
