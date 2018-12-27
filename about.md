@@ -11,7 +11,7 @@ where the scope of the work is broader and where the focus is on performance and
 
 I work for [evosoft][evosoft], a Siemens subsidiary in a devops role on cloud-based infrastructure. I'm currently earning my Bsc degree in computer science and engineering.
 
-My interests includ systems programming, security, virtualization & cloud tech, performance-critical software,
+My interests include systems programming, security, virtualization & cloud tech, performance-critical software,
 programming languages and hardware.
 
 
