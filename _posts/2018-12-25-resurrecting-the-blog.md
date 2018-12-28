@@ -17,9 +17,9 @@ because I haven't kept a copy of them.
 The recovery process was very nostalgic.
 [My first post][jukebox-post] even mentions my past in online poker.
 There is [this post][magento-post] where I describe my experience with Magento that I tried to learn in about a week to create a webshop for a local company. It was a terrible failure as I couldn't deliever a single webpage in 3 weeks and the contractor got so upset with me he didn't pick up the phone for a month. I had no idea about webshops or backend development.
-Or [this gem][microscript-post] where I create a php script for cron to send me email notifications when a new versions of a font comes out instead of pinning its version in the URL. What a great idea.
+Or [this one][c] where I was just learning about C and was baffled by pointer arithmetic.
 
-Anyways, a few years have passed and my professional interests changed a lot. Well, everything changed a lot.
+Anyways, a few years have passed and my professional interests changed a lot.
 I'll be publishing some articles that I've been secretly drafting.
 
 Here are the goals I hope to accomplish with this blog:
@@ -32,4 +32,4 @@ Here are the goals I hope to accomplish with this blog:
 [wayback-machine]: https://archive.org/web/
 [jukebox-post]: {{ site.baseurl }}{% post_url 2013-05-03-infinite-jukebox %}
 [magento-post]: {{ site.baseurl }}{% post_url 2013-06-21-magento %}
-[microscript-post]: {{ site.baseurl }}{% post_url 2013-09-27-font-awesome %}
+[c]: {{ site.baseurl }}{% post_url 2016-03-16-knr-c %}

@@ -4,6 +4,7 @@ title:  "Font awesome version update notifications"
 date:   2013-09-27 22:00:00 +0100
 categories: update
 tags: font awesome php microscript
+published: false
 ---
 
 Some sites I built use the [Font Awesome][font-awesome-icons] icon set.
