@@ -1,0 +1,8 @@
+- TLS
+- key exchange protocols
+    - https://en.wikipedia.org/wiki/Key_exchange
+- Diffie-Hellman
+- PKI - "web of trust"
+- certificates
+- x.509
+- RSA

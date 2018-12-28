@@ -1,0 +1,14 @@
+- 3 values associated with a c pointer
+    - the address it is stored at
+    - the address it points to
+    - the value in the pointed address
+- what rly happens when you say "pass by ref or value" in higher level languages
+- what do you mutate
+- how do you copy values (ref / value)
+- what is the significance of pointers in C
+    - scope
+    - values returned from functions
+    - efficiency
+    - direct mapping to ASM / hardware
+        - higher lvl languages shield you from manipulating memory addresses directly
+    - problems that pointers create
