@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Which way forward?"
-date:   2018-12-27 23:30:00 +0100
+date:   2018-12-28 23:30:00 +0100
 categories: update
 tags: software development
 ---
@@ -9,7 +9,7 @@ tags: software development
 Él bennem egy kép az ideális szoftverfejlesztői környezetről. Úgy képzelem, hogy egy ideális környezetben
 a fejlesztői munka kiterjed a számítógép rendszerek mindenféle területére.
 A megoldandó problémák technikai jellegűek, az emberek [mérnöki szemlélettel][whither] állnak a munkához,
-a szoftver hatékonysága, teljesítménye elsődleges szempont. Alacsony absztrakciós szinten folyik a munka.
+a szoftver hatékonysága, teljesítménye elsődleges szempont. A fejlesztők nincsenek magas absztrakciós szintekhez láncolva.
 A csapat tagja képzett szakemberek, akik [szakmailag megalapozott döntéseket hoznak][nasa],
 a szoftverrendszerek minden rétegét jól ismerik, képesek és van lehetőségük ott optimalizálni, ahol a leginkább érdemes.
 A szoftver minőségét (helyességét) fejlett eszközök segítségével biztosítják.
@@ -18,9 +18,9 @@ A szoftver minőségét (helyességét) fejlett eszközök segítségével bizto
 
 Még mindig nincs egy tiszta elképzelésem arról, hogy pontosan milyen irányba akarok továbbhaladni a szoftverek területén.
 A webes alkalmazásfejlesztésből kiábrándulva 2018-ban jelentősen pályát módosítottam és - több lépésben - sikerült is olyan területre kerülnöm,
-amik jóval közelebb állnak az érdeklődésemhez.
+ami jóval közelebb áll az érdeklődésemhez.
 Érdekes és előremutató technológiákkal dolgozom a mostani helyemen, de mégsem érzem, hogy valóban azzal telne a mindennapi munkám, ami igazán érdekel.
-Ami zavar, hogy eddig még tudtam pontosan megfogalmazni, mi is zavar, min kéne változtatni.
+Ami zavar, hogy eddig még tudtam pontosan megfogalmazni, hogy min kéne változtatni, milyen irányba kéne mozdulni.
 Ebben a postban megpróbáltam összeszedni a gondolataimat, hátha okosabb leszek, miután egyben látom az egészet.
 
 # Mik a legfontosabb szakmai szempontok?
@@ -46,7 +46,7 @@ gyakran rengeteg iterációval, végtelenül egyszerű, manuális munkával.
 Nem találtam a munkában semmi mérnöki jellegűt. Semmit, ami megkövetelné a szigorú tervezést, a matematikai/elméleti modellek
 alkalmazását.
 
-# Mi bajom van a cloud infra fejlesztéssel?
+# Mi bajom van a cloud-based infrastructure fejlesztéssel?
 Nagyon magas absztrakciós szinten dolgozunk, így túl specifikus tudást szerzek a munka során, nem általánosat.
 Ismert, alacsony szintű technologiák magas szintű absztrakcióival dolgozunk, amik uj elnevezéseket kaptak,
 és limitalva lett a funkcionalitasuk, aszerint, ahogy az adott vendor épp jónak látta.
@@ -58,58 +58,67 @@ valami ahhoz hasonlót nem csinál, amit szeretnék elérni.
 Ehhez kapcsolódó kiváló írás [Joel Spolsky: Leaky Abstraction][leaky-abstractions] cikkje.
 
 # Miért vonz a security/pentesting témakör?
-Új, addig ismeretlen dolgok feltárásán van a hangsúly.
-Megköveteli a szoftverrendszerek minden rétegének alapos ismeretét és a munka ki is terjed a különböző területekre, ez által változatos.
+Új, addig ismeretlen dolgok feltárásán van a hangsúly. Rendszereket kell feltörni!
+Megköveteli a szoftverrendszerek minden rétegének alapos ismeretét és a munka ki is terjed a különböző területekre, így nagyon változatos lehet.
+Requires deep knowledge of the OS which is an interesting and broad topic.
 Alapvető elem az állandó önképzés, folyamatos verseny az ellenkező oldallal.
-Van valami nagyon vonzó abban, hogy az ember sérülékenységet próbál feltárni mások rendszerein.
 Egyszerűen király az egész.
 
 # Miért vonz a systems programming és a low-level language-ek?
 Alacsony absztrakciós szint: hatalmas implementációs szabadság (bár cserébe lassú és nehézkes a fejlesztés).
-Az az érzés, hogy mindennek az alapját tudod felépíteni és a gép minden erőforrása közvetlenül az irányításod alatt áll.
+Az érzés, hogy mindennek az alapját tudod felépíteni és a gép minden erőforrása közvetlenül az irányításod alatt áll.
 Kiemelten fontos a szoftver teljesítménye: muszáj a harware-t is jól ismerni.
-[egyéb szoftverek számára][systems] fejlesztes szolgáltatásokat (szemben az alkalmazásokkal, akik a végfelhasználókat célozzák),
-ezáltal, mintha sokkal jobban definiáltabb lenne a munka.
+OS knowledge is central.
 
-# Mi vonz a szimulációkban, scientific computing-ban?
-Itt is meg kell próbálni minden utolsó teljesítmény cseppet kifacsarni a gépből.
+# Mi vonz a szimulációkban, scientific computing, HPC témákban?
+The problem space stems from natural science research: a chance to help advance natural sciences.
+You get to work with huge, powerful machines. (Do you?)
 
 # Miért érdekelnek annyira az elosztott rendszerek, a párhuzamos programozás?
 Egyszerűen vonz a bonyolultsága és a bennük rejlő potenciál.
-Ahogy lassul a növekedés az egyedi CPU magok teljesítményében, úgy halad a világ a multiprocessing felé.
+Ahogy lassul a CPU magok teljesítményének növekedése, úgy halad a világ a multiprocessing felé.
+The software of the future will probably have to make heavy use of parallelism.
 
-# Miért érdekelnek a programnyelvek / compilerek és hasonló technológiák?
-Komoly elméleti alapokra épül. Tele van érdekes algoritmusokkal, adatstruktúrákkal.
+# Miért érdekelnek a programnyelvek / compilerek?
+Creating a programming language is like creating a little world.
+Compilers are one of the fundamental enabling technologies of all software development.
+This space is full of interesting algorithms and data structures.
+There are interesting new ideas and paradigms all the time.
 
 # Miért vonz a hardware?
 A legalsó szint. Itt a legtöbb a lehetőség a teljesítményoptimalizálásra.
 Kevés nagy szereplő uralja a piacot, kevés a nyílt forrású szoftver eszköz hardwarefejlesztésre: piaci rés?
 
-# Miért vonz annyira pl. az önjáró autók szoftvervilága? Mit képzelek bele? Tényleg olyan?
+# Miért vonz annyira pl. az önjáró autók szoftvervilága?
 Érdekes kobinációja néhány izgalmas fentebb tárgyalt területnek:
-    - hardware
-    - low level software
-    - elosztott rendszerek
-    - gépi tanulás
+- hardware
+- low level software
+- elosztott rendszerek
+- gépi tanulás
+- image processing: full of interesting math
+
 Az eredmény kézzel fogható - önjáró autók! -, óriási hatása lehet a világra.
-Nagyon bonyolultnak tűnik maga a domain (egy géppel felismertetni a világunkat és megtanítani közlekedni benne) és ez önmagában nagyon vonzó.
+Maga a domain (egy géppel felismertetni a világunkat és megtanítani közlekedni benne) tele lehe komplex, érdekes problémákkal.
 
 # Miért olyan vonzó a játékfejlesztés?
-Rettentő széles szeletét kiteszi a szoftverfejelsztésnek:
-    - networking programming
-    - graphics
-    - physics modelling
-    - kiemelten fontos a teljesítmény: hardware közeli és megkívánja a minél fejlettebb algoritmusok/ adatstruktúrák használatát
-    - artwork
-    - audio
+A szoftverfejelsztés rengeteg különböző ágára kiterjed:
+- networking programming
+- graphics, rendering, GPU programming
+- physics modelling
+- custom developer tools
+- low-level, close to the hardware: kiemelten fontos a teljesítmény, megkívánja a minél fejlettebb algoritmusok/adatstruktúrák használatát
 
-Az evosoftnál a szakmai résszel kapcsolatban enyhén pozitívak az érzelmeim, a nem-szakmai dolgokban viszont kiemelkedően jó a helyzet.
+# Conclusion
+It seems there are some common traits of the areas I'm most interested in:
+- usage of low-level languages that provide a lot of control over the hardware: C, C++, assembly
+- emphasis on concurrency and parallelism
+- a deep understanding of the OS is required
 
-Kíváncsi vagyok, mit fogok gondolni a fent leírtakról néhány év múlva.
+I'll try to focus more on these areas.
+I'm curious where I'll be in a few years and what I'll be thinking of this essay then.
 
 [leaky-abstractions]: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
 [nasa]: https://mystudentvoices.com/a-look-into-nasas-coding-philosophy-b747957c7f8a
 [whither]: https://pdfs.semanticscholar.org/3a6b/0506b8b922d7e6cc933a39dc165b5f34797e.pdf
 [handmade]: https://handmade.network/manifesto
 [tar-pit]: https://blog.acolyer.org/2015/03/20/out-of-the-tar-pit/
-[systems]: https://en.wikipedia.org/wiki/System_programming
