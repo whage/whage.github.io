@@ -1,26 +1,27 @@
 ---
 layout: post
-title:  "The different paths of software developers (?)"
+title:  "Which way forward?"
 date:   2018-12-27 23:30:00 +0100
 categories: update
 tags: software development
 ---
 
-Él bennem egy kép az ideális szoftverfejlesztői környezetről. Úgy képzelem, hogy egy ideális környezetben a fejlesztői munka kiterjed a számítógép rendszerek mindenféle területére. A megoldandó problémák technikai jellegűek, az emberek [mérnöki szemlélettel][whither] állnak a munkához, a szoftver hatékonysága, teljesítménye elsődleges szempont. Alacsony absztrakciós szinten folyik a munka.
-A csapat tagja képzett szakemberek, akik [szakmailag megalapozott döntéseket hoznak][nasa], a szoftverrendszerek minden rétegét jól ismerik, képesek és van lehetőségük ott optimalizálni, ahol a leginkább érdemes. A szoftver minőségét (helyességét) fejlett eszközök segítségével biztosítják.
+Él bennem egy kép az ideális szoftverfejlesztői környezetről. Úgy képzelem, hogy egy ideális környezetben
+a fejlesztői munka kiterjed a számítógép rendszerek mindenféle területére.
+A megoldandó problémák technikai jellegűek, az emberek [mérnöki szemlélettel][whither] állnak a munkához,
+a szoftver hatékonysága, teljesítménye elsődleges szempont. Alacsony absztrakciós szinten folyik a munka.
+A csapat tagja képzett szakemberek, akik [szakmailag megalapozott döntéseket hoznak][nasa],
+a szoftverrendszerek minden rétegét jól ismerik, képesek és van lehetőségük ott optimalizálni, ahol a leginkább érdemes.
+A szoftver minőségét (helyességét) fejlett eszközök segítségével biztosítják.
 
 <!--more-->
 
 Még mindig nincs egy tiszta elképzelésem arról, hogy pontosan milyen irányba akarok továbbhaladni a szoftverek területén.
-2018-ban jelentősen pályát módosítottam és sikerült is olyan területre kerülnöm, amik jóval közelebb állnak az érdeklődésemhez,
-de mégsem érzem, hogy valóban azzal telne a mindennapi munkám, ami igazán érdekel.
-
-Bár ritkán, de előfordult, hogy órákra belefeledkeztem a munkámba. Elkapott a flow, ahogy Csíkszentmihályi úr mondaná.
-Szerintem két fő tényező van, ami ezt az állapotot elősegíti. Egyrészt olyan tevékenységet kell végezni, ami komoly kihívást jelentet,
-másrész nagy fokú szabadsággal kell rendelkezni a megvalósítás tekintetében. Ha valamelyik hiányzik, az ember könnyen elveszti motivációját,
-a munka manuálissá, repetitívvé és nyomasztóvá válik.
-
-Megpróbáltam összeszedni a gondolataimat a fentiekkel kapcsolatban, hátha okosabb leszek, miután egyben látom az egészet.
+A webes alkalmazásfejlesztésből kiábrándulva 2018-ban jelentősen pályát módosítottam és - több lépésben - sikerült is olyan területre kerülnöm,
+amik jóval közelebb állnak az érdeklődésemhez.
+Érdekes és előremutató technológiákkal dolgozom a mostani helyemen, de mégsem érzem, hogy valóban azzal telne a mindennapi munkám, ami igazán érdekel.
+Ami zavar, hogy eddig még tudtam pontosan megfogalmazni, mi is zavar, min kéne változtatni.
+Ebben a postban megpróbáltam összeszedni a gondolataimat, hátha okosabb leszek, miután egyben látom az egészet.
 
 # Mik a legfontosabb szakmai szempontok?
 Érdekes, kihívást jelentő legyen, amit csinálok.
@@ -32,7 +33,7 @@ Legyen lehetőség kutatómunkára, tudjunk kísérletezni új dolgokkal.
 Legyen lehetőség önképzésre.
 Ne helyezzenek ránk nyomást túl szűk határidőkkel.
 Legyen egy szakmailag képzett és szerethető csapat hasonló érdeklődésű és motivációjú kollégákkal.
-Érdemleges, valamirevaló probléma megoldásán dolgozzak. Olyan dolog legyen a végtermék, amire szerintem a világnak szüksége van.
+Érdemleges, valamirevaló probléma megoldásán dolgozzak. Olyan dolog legyen a végtermék, amire úgy érzem, a világnak szüksége van.
 
 # Mi bajom van a webfejelsztéssel / hagyományos üzleti alkalmazásfejlesztéssel? - What's wrong with web app development?
 A munka repetitív jellege: CRUD funkciók egy újabb entitáshoz.
@@ -46,41 +47,52 @@ Nem találtam a munkában semmi mérnöki jellegűt. Semmit, ami megkövetelné 
 alkalmazását.
 
 # Mi bajom van a cloud infra fejlesztéssel?
-Túl specifikus tudást szerzek a munka során, nem általánosat.
-Ismert, alacsony szintű technologiák magas szintű absztrakcióival dolgozunk, amik uj elnevezéseket kaptak, és limitalva lett a funkcionalitasuk, aszerint, ahogy az adott vendor épp jónak látta. A megszerzett tudás igen erősen hozzáláncol az adott vendorhoz.
+Nagyon magas absztrakciós szinten dolgozunk, így túl specifikus tudást szerzek a munka során, nem általánosat.
+Ismert, alacsony szintű technologiák magas szintű absztrakcióival dolgozunk, amik uj elnevezéseket kaptak,
+és limitalva lett a funkcionalitasuk, aszerint, ahogy az adott vendor épp jónak látta.
+A megszerzett tudás igen erősen hozzáláncol az adott vendorhoz.
 A megoldandó problémák ["esszenciális komplexitása"][tar-pit] jellemzően alacsony viszont az IaaS providerek absztrakciós szintjének eszközeivel
-egy véget nem érő próbálkozássá válik a helyes konfiguráció felderítése.
+egy véget nem érő konfiguráció-próbálgatássá válik a munka.
 Mintha folyamatosan limitált eszközök kis halmazából kéne válogatnom és addig csűrni-csavarni a megoldást, amíg
 valami ahhoz hasonlót nem csinál, amit szeretnék elérni.
 Ehhez kapcsolódó kiváló írás [Joel Spolsky: Leaky Abstraction][leaky-abstractions] cikkje.
 
-# Miért vonz a security/etchical hacking/pentesting témakör?
+# Miért vonz a security/pentesting témakör?
 Új, addig ismeretlen dolgok feltárásán van a hangsúly.
 Megköveteli a szoftverrendszerek minden rétegének alapos ismeretét és a munka ki is terjed a különböző területekre, ez által változatos.
 Alapvető elem az állandó önképzés, folyamatos verseny az ellenkező oldallal.
+Van valami nagyon vonzó abban, hogy az ember sérülékenységet próbál feltárni mások rendszerein.
 Egyszerűen király az egész.
 
 # Miért vonz a systems programming és a low-level language-ek?
-Alacsony absztrakciós szint: hatalmas implementációs szabadság. Cserébe lassú és nehézkes fejlesztés.
-Az az érzés, hogy mindennek az alapját tudod felépíteni.
+Alacsony absztrakciós szint: hatalmas implementációs szabadság (bár cserébe lassú és nehézkes a fejlesztés).
+Az az érzés, hogy mindennek az alapját tudod felépíteni és a gép minden erőforrása közvetlenül az irányításod alatt áll.
 Kiemelten fontos a szoftver teljesítménye: muszáj a harware-t is jól ismerni.
-Szolgáltatások [egyéb szoftverek számára][systems] (szemben az alkalmazásokkal, akik a végfelhasználókat célozzák)
+[egyéb szoftverek számára][systems] fejlesztes szolgáltatásokat (szemben az alkalmazásokkal, akik a végfelhasználókat célozzák),
+ezáltal, mintha sokkal jobban definiáltabb lenne a munka.
 
 # Mi vonz a szimulációkban, scientific computing-ban?
 Itt is meg kell próbálni minden utolsó teljesítmény cseppet kifacsarni a gépből.
 
 # Miért érdekelnek annyira az elosztott rendszerek, a párhuzamos programozás?
-Egyszerűen vonz a bonyolultsága.
+Egyszerűen vonz a bonyolultsága és a bennük rejlő potenciál.
+Ahogy lassul a növekedés az egyedi CPU magok teljesítményében, úgy halad a világ a multiprocessing felé.
 
 # Miért érdekelnek a programnyelvek / compilerek és hasonló technológiák?
 Komoly elméleti alapokra épül. Tele van érdekes algoritmusokkal, adatstruktúrákkal.
 
 # Miért vonz a hardware?
 A legalsó szint. Itt a legtöbb a lehetőség a teljesítményoptimalizálásra.
+Kevés nagy szereplő uralja a piacot, kevés a nyílt forrású szoftver eszköz hardwarefejlesztésre: piaci rés?
 
 # Miért vonz annyira pl. az önjáró autók szoftvervilága? Mit képzelek bele? Tényleg olyan?
-Az eredmény kézzel fogható, óriási hatása lehet a világra.
-Nagyon bonyolultnak tűnik maga a domain (egy géppel felismertetni a világot) és ez önmagában nagyon vonzó.
+Érdekes kobinációja néhány izgalmas fentebb tárgyalt területnek:
+    - hardware
+    - low level software
+    - elosztott rendszerek
+    - gépi tanulás
+Az eredmény kézzel fogható - önjáró autók! -, óriási hatása lehet a világra.
+Nagyon bonyolultnak tűnik maga a domain (egy géppel felismertetni a világunkat és megtanítani közlekedni benne) és ez önmagában nagyon vonzó.
 
 # Miért olyan vonzó a játékfejlesztés?
 Rettentő széles szeletét kiteszi a szoftverfejelsztésnek:
@@ -91,6 +103,7 @@ Rettentő széles szeletét kiteszi a szoftverfejelsztésnek:
     - artwork
     - audio
 
+Az evosoftnál a szakmai résszel kapcsolatban enyhén pozitívak az érzelmeim, a nem-szakmai dolgokban viszont kiemelkedően jó a helyzet.
 
 Kíváncsi vagyok, mit fogok gondolni a fent leírtakról néhány év múlva.
 
