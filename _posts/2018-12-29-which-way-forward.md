@@ -10,7 +10,7 @@ I have an idealistic image of the perfect work environment for software develope
 One where the work is not limited high levels of abstraction. Where people get a chance to rethink and experiment
 and build stuff from scratch.
 One where every day work touches on many different areas of computer systems.
-The problems are technical in nature and there is ["real engineerig"][whither] involved.
+The problems are technical in nature and there is ["real engineering"][whither] involved.
 The performance and efficiency of the resulting software is at the core.
 One where the members of the teams are experts who can and do make [sound decisions grounded in theory and experience][nasa],
 who have a deep understanding of the different layers of software all the way to the hardware and who can do optimizations
@@ -40,11 +40,11 @@ The mission ought to be something worthwhile. One should work on problems he/she
 
 # What I didn't like about generic web app / business software
 The repetitive nature of the work: CRUD functionality for yet another entity in the system.
-The lack of technical challenge: the emphasis is on modelling business processes which are usually just a simple sequance of steps.
+The lack of technical challenge: the emphasis is on modelling business processes which are usually just a simple sequence of steps.
 Speed of development is preferred instead of the efficiency of the resulting software.
 To achieve speedy development we just keep building layers and layers of half-baked generic solutions on top of each other
 and we [bloat our software][handmade] making it even slower and more complex.
-UI development is also unavoidable where you have to satisfy subjective requirements with many iterations and manual labour.
+UI development is also unavoidable where you have to satisfy subjective requirements with many iterations and manual labor.
 I didn't find anything related to "engineering" in this kind of work.
 Strict, model-based planning or the use of solid models / mathematics were absent.
 
@@ -53,21 +53,21 @@ We work at very high levels of abstractions and the knowledge our gain is not ve
 These abstractions are those of well known low level technologies but at the IaaS level, they get fancy new names,
 their functionality gets limited in ways the vendor saw fit. The knowledge you gain ties you very closely to the vendor.
 The ["essential complexity"][tar-pit] of tasks is typically low but at the level of abstractions we need to work with
-it becomes a neverending trial and error of tweaking configuration parameters.
+it becomes a never ending trial and error of tweaking configuration parameters.
 A related article that comes to mind is [Leaky Abstractions][leaky-abstractions] from Joel Spolsky.
 
 Now I'll look at the areas of software that I haven't worked in yet and find really interesting.
 
-# Security / etchical hacing / penetration testing
+# Security / ethical hacking / penetration testing
 The emphasis is on finding unknown weaknesses in systems. You get to break systems and they pay you for it!
 Requires deep knowledge of the OS and computer networks which is are interesting and broad topics.
-Continuos learning is a key aspect of the work. There is a constant race against the opposite side.
-Securing digital information is increasingly important as everything aroud us is getting digitized.
+Continuous learning is a key aspect of the work. There is a constant race against the opposite side.
+Securing digital information is increasingly important as everything around us is getting digitized.
 Good security professionals will probably be in great demand. It also feels like black magic.
 
 # Systems programming and low-level languages
 The work is done on a very low level of abstractions: you get a lot of freedom with regards
-to implementation (and slow and cumbersom development as well).
+to implementation (and slow and cumbersome development as well).
 The feeling that you get to build the very fundamentals and you have full control over the machine's resources.
 The emphasis is on performance: one must know the underlying hardware well.
 You work closely with the operating system: very broad and interesting area.
