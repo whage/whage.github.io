@@ -32,11 +32,11 @@ In this post I try to gather my thoughts, maybe I'll be wiser once I see everyth
 # What are the most important factors?
 Technological freedom: the developers should not be constrained to a limited set of technologies.
 The acquired knowledge ought to be transferable to other areas, people should work with emerging technologies.
-Work ought to he challenging and interesting.
+Work ought to the challenging and interesting.
 People should have the chance to learn and experiment with new things.
 No unreasonable deadlines and pressure. That's the best way to kill motivation and performance.
 People should work in a highly skilled team of like-minded people who share the same motivations and values.
-The mission ought to be something worthwhile. One should work on problems he feels are truly important.
+The mission ought to be something worthwhile. One should work on problems he/she feels are truly important.
 
 # What I didn't like about generic web app / business software
 The repetitive nature of the work: CRUD functionality for yet another entity in the system.
@@ -86,7 +86,7 @@ Compilers are one of the fundamental enabling technologies of all software devel
 The domain is full of interesting algorithms and data structures.
 There are interesting new ideas and paradigms all the time.
 
-# Why am I attracted so much to self-driving cars?
+# Why am I attracted so much to self-driving car technology?
 It's an interesting combination of many exciting areas of information technology:
 - low level software
 - image processing: full of interesting math
