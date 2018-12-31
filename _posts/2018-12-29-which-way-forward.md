@@ -7,7 +7,7 @@ tags: software development
 ---
 
 I have an idealistic image of the perfect work environment for software developers.
-One where the work is not limited high levels of abstraction. Where people get a chance to rethink and experiment
+One where the work is not limited to high levels of abstraction. Where people get a chance to rethink and experiment
 and build stuff from scratch.
 One where every day work touches on many different areas of computer systems.
 The problems are technical in nature and there is ["real engineering"][whither] involved.
@@ -34,13 +34,13 @@ Technological freedom: the developers should not be constrained to a limited set
 The acquired knowledge ought to be transferable to other areas, people should work with emerging technologies.
 Work ought to the challenging and interesting.
 People should have the chance to learn and experiment with new things.
-No unreasonable deadlines and pressure. That's the best way to kill motivation and performance.
+No unreasonable deadlines and pressure.
 People should work in a highly skilled team of like-minded people who share the same motivations and values.
 The mission ought to be something worthwhile. One should work on problems he/she feels are truly important.
 
 # What I didn't like about generic web app / business software
 The repetitive nature of the work: CRUD functionality for yet another entity in the system.
-The lack of technical challenge: the emphasis is on modelling business processes which are usually just a simple sequence of steps.
+The lack of technical challenge: the emphasis is on modelling business processes which are usually just simple sequences of actions.
 Speed of development is preferred instead of the efficiency of the resulting software.
 To achieve speedy development we just keep building layers and layers of half-baked generic solutions on top of each other
 and we [bloat our software][handmade] making it even slower and more complex.
@@ -60,7 +60,7 @@ Now I'll look at the areas of software that I haven't worked in yet and find rea
 
 # Security / ethical hacking / penetration testing
 The emphasis is on finding unknown weaknesses in systems. You get to break systems and they pay you for it!
-Requires deep knowledge of the OS and computer networks which is are interesting and broad topics.
+Requires deep knowledge of the OS and computer networks which are interesting and broad topics.
 Continuous learning is a key aspect of the work. There is a constant race against the opposite side.
 Securing digital information is increasingly important as everything around us is getting digitized.
 Good security professionals will probably be in great demand. It also feels like black magic.
