@@ -31,8 +31,8 @@ In this post I try to gather my thoughts, maybe I'll be wiser once I see everyth
 
 # What are the most important factors?
 Technological freedom: the developers should not be constrained to a limited set of technologies.
-The acquired knowledge ought to be transferable to other areas, people should work with emerging technologies.
-Work ought to the challenging and interesting.
+The acquired knowledge ought to be transferable to other areas.
+Work should to be challenging and interesting.
 People should have the chance to learn and experiment with new things.
 No unreasonable deadlines and pressure.
 People should work in a highly skilled team of like-minded people who share the same motivations and values.
@@ -49,18 +49,24 @@ I didn't find anything related to "engineering" in this kind of work.
 Strict, model-based planning or the use of solid models / mathematics were absent.
 
 # What I don't like about doing cloud-based infrastructure
-We work at very high levels of abstractions and the knowledge our gain is not very generic or transferable.
-These abstractions are those of well known low level technologies but at the IaaS level, they get fancy new names,
-their functionality gets limited in ways the vendor saw fit. The knowledge you gain ties you very closely to the vendor.
-The ["essential complexity"][tar-pit] of tasks is typically low but at the level of abstractions we need to work with
-it becomes a never ending trial and error of tweaking configuration parameters.
-A related article that comes to mind is [Leaky Abstractions][leaky-abstractions] from Joel Spolsky.
+We work at very high levels of abstractions and the knowledge we gain is not very generic or transferable.
+These abstractions are those of well known low level technologies but at the IaaS provider level, they get fancy new names
+and their functionality gets limited in ways the vendor saw fit. The knowledge you gain ties you to the vendor.
+Strangely, I often feel like the ["essential complexity"][tar-pit] of our tasks are typically low
+but at the cloud provider resource level it becomes a never ending trial and error of tweaking configuration parameters.
+In programming we solve a problem by designing how data will flow through the system. We define every aspect of it. There is a lot of freedom.
+In a "cloud infra engineer" role, we don't do algorithms, instead we draw boxes, connect them, tweak their parameters and see what happens.
+But be careful! Box "A" can oly be connected to box "B" if box "C"'s foo parameter is set to "x". Why? Because the docs say so!
+It feels like there is usually one way to achieve something and it is by finding that one combination of resource parameters.
+We are using [leaky abstractions][leaky-abstractions]. We are very limited in our work.
+It's not all that bad of course. I get to learn about how cloud-based software work, which is increasingly more valuable knowledge
+and also learn a lot about networking and operations. I just miss writing programs.
 
 Now I'll look at the areas of software that I haven't worked in yet and find really interesting.
 
 # Security / ethical hacking / penetration testing
-The emphasis is on finding unknown weaknesses in systems. You get to break systems and they pay you for it!
-Requires deep knowledge of the OS and computer networks which are interesting and broad topics.
+The emphasis is on finding unknown weaknesses in systems. You get to break them and they pay you for it!
+Requires a deep knowledge of the lowest layers of computer systems which are very interesting.
 Continuous learning is a key aspect of the work. There is a constant race against the opposite side.
 Securing digital information is increasingly important as everything around us is getting digitized.
 Good security professionals will probably be in great demand. It also feels like black magic.
@@ -119,8 +125,7 @@ It seems there are some common traits of the areas I'm most interested in:
 - emphasis on concurrency and parallelism
 - a deep understanding of the OS is necessary
 
-C, C++, assembly, GO, operating systems, network programming.
-I'll try to focus more on these areas.
+I'll try to focus more on C, C++, assembly, GO, operating systems and network programming.
 I'm curious where I'll be in a few years and what I'll be thinking of this essay then.
 
 [leaky-abstractions]: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
