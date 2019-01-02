@@ -6,7 +6,7 @@ categories: update
 tags: personal
 ---
 
-A [good friend][imi] of mine and I agreed to set up a blog during the Christmas holidays.
+A [good friend][imi] of mine and I agreed that we will both set up a blog during the Christmas holidays.
 
 I decided to resurrect my old blog that I started - and then abandoned - in 2013.
 I had to look up my old posts, some of them I had to recover from [The Wayback Machine][wayback-machine]
