@@ -43,12 +43,19 @@ few places explain well and that I wish I was shown years ago.
 
 # CIDR notation
 Many articles talk about addresses and their subnet masks
-    - what is the point of defning an ADDRESS with a SUBNET MASK? Only a router is concerned with a subnet mask.
+    - what is the point of defning an ADDRESS (a DESTINATION) with a SUBNET MASK? Only a router is concerned with a subnet mask.
 The host that has the address doesn't care!
 - the literature always mentions "subnet identifier" and "host identifier" sections of an IP address
 or "the IP address and its `routing prefix`"
     - https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
     - this only matters inside the router when it compares the destination addresses to its route table entries
+
+# why CIDR notation is problematic
+- example: 10.0.0.0/25 defines the same subnet as 10.0.0.0-10.0.100.127 /25 does
+    - the mask is 25 bits long which takes up the first 3 octets and one bit from the 4th octet
+    - all of the above ranges have 00001010.00000000.00000000.0 in the first 25 bits
+        - 10.0.0.0   = 00001010.00000000.00000000.00000000
+        - 10.0.0.127 = 00001010.00000000.00000000.01111111
 
 - maybe a note about how important it was for me to learn about the EVOLUTION of computer networks (Tiszai Tamás tanár úr)
 in order to understand how hubs, bridges, switches, routers, networks work
