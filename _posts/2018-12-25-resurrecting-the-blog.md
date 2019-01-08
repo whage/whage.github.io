@@ -2,8 +2,8 @@
 layout: post
 title:  "Resurrecting the blog"
 date:   2018-12-25 09:30:00 +0100
-categories: update
-tags: personal
+categories: personal
+tags: blog
 ---
 
 A [good friend][imi] of mine and I agreed that we will both set up a blog during the Christmas holidays.

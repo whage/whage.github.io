@@ -2,8 +2,8 @@
 layout: post
 title:  "New year update"
 date:   2017-01-03 22:00:00 +0100
-categories: update
-tags: new year update
+categories: personal
+tags: new year
 ---
 
 It feels like it's been years since I last wrote anything here. A lot must have happened to me last year.

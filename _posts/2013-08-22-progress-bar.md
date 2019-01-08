@@ -2,8 +2,8 @@
 layout: post
 title:  "Negative text progress bar"
 date:   2013-08-22 22:00:00 +0100
-categories: update
-tags: progress bar css javascript
+categories: rontend
+tags: css javascript
 ---
 
 A good friend of mine, the founder of [Boomla][boomla], a "website OS" as he calls it suggested I improve my progress bar design by making its text change color pixel by pixel as the progress bar passes through.

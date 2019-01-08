@@ -2,8 +2,8 @@
 layout: post
 title:  "Which way forward?"
 date:   2018-12-29 10:00:00 +0100
-categories: update
-tags: software development
+categories: personal
+tags: career
 ---
 
 I have an idealistic image of the perfect work environment for software developers.

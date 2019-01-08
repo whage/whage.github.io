@@ -2,8 +2,8 @@
 layout: post
 title:  "Font awesome version update notifications"
 date:   2013-09-27 22:00:00 +0100
-categories: update
-tags: font awesome php microscript
+categories: php
+tags: font awesome microscript
 published: false
 ---
 
