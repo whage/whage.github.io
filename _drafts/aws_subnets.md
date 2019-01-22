@@ -8,7 +8,7 @@
 ## is a public IP useless without an internet gateway?
 
 ## is an internet gateway useless without a public IP address?
-- create a subnet with an attached IGW
+- create a subnet with an attached IGW (this makes it a "public subnet" according to the AWS docs)
 - create an instance without a public IP
 - try to access a known public address from the instance
 

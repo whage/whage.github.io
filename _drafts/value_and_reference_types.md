@@ -12,3 +12,5 @@
     - direct mapping to ASM / hardware
         - higher lvl languages shield you from manipulating memory addresses directly
     - problems that pointers create
+- explain why it is important to understand C (and thus how computer memory works) in order to understand higher lvl concepts
+- https://stackoverflow.com/questions/162941/why-use-pointers
