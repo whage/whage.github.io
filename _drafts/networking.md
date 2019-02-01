@@ -1,22 +1,24 @@
 This is a short summary and explanation of networking concepts, ones that I struggled to understand for a long time.
-Fun fact: most of my epiphanies regarding these topics are thanks to an extraordinary university professor,
+Most of my epiphanies happened thanks to an extraordinary university professor,
 Tamás Tiszai who taught me one semester of computer networks in 2018.
 
 # The OSI model
-For the early years in my programming career, this was just a buzzword for me.
-I could recite the names of the layers of the "Open Systems Interconnect" model but I still didn't get it.
+Once upon a time, even before the Internet existed, a group of people came together to discuss the problems
+that arise when computers connected by a cable try to talk to each other. They identified 7 major classes
+of problems and laid down the conceptual foundations to solving them in a layered architecture, because layer are good.
+Thus the "Open Systems Interconnect" model was born.
 
-Network communication is the result of different mechanisms that build on each other.
-These mechanisms can be thought of as layers sitting on each other. Each layer consumes the services of
-the layer just one level below it and adds a new "capability" to the communication while providing its "services" to the layer above it.
-OSI is a specification rather than an implementation. It lays down guidelines. The layers of the OSI model are *abstractions*.
-The famous "TCP/IP" protocol stack, or "Internet Protocol Suite" is an implementation of the functionality described by the OSI model,
-condensed into four layers.
+In the OSI model, each layer consumes the services of
+the layer one level below it and adds a new "capability" to the communication while providing its "services" to the layer above it.
+OSI is a specification, not an implementation. It lays down guidelines. The layers of the OSI model are *abstractions*.
+If a layer is an abstraction, then a protocol is its implementation. Tere are several protocol implementations of each OSI layer.
+The famous "TCP/IP" protocol stack, or "Internet Protocol Suite" is a set of protocols implementing the OSI model, but the
+original 7 layers have been condensed into just four. It is a good example of an implementation not strictly following a specification.
 The protocols implementing the layers are called a *protocol stack*. There is a protocol stack "instance" at both ends of the communication
 and each layer is in a logical connection with the same layer at the opposite end of the connection.
 
-All the layers together implement *protocol encapsulation*. It means that outbound data starts out at the top layer and
-as the protocols pass it down one by one, each one adds a bit of information in the form of *headers*.
+All the layers together achieve what is called *protocol encapsulation*. It means that outbound data starts out at the top layer and
+as the protocols pass it down layer by layer, each one adds a bit of information in the form of *headers*.
 These extra bits of information make sure the data can survive its perilous journey through the network.
 At the destination, the same happens in reverse: the protocols, starting from the bottom one each trim off and process their respective headers
 and pass the stripped data up to the next layer all the way to the application.
@@ -31,11 +33,11 @@ between the two communicating machines. The *presentation (6)* layer mostly hand
 The *application (7)* layer specifies mechanisms for handling high-level concepts. HTTP is a protocol of the 7th OSI layer, it specifies a
 common language to manipulate abstract resources (any kind of data) on servers.
 
-# Routing vs filtering
-- "firewall": 
-- filtering can happen on different levels, usually:
-    - ip address
-    - port
+# Filtering and routing
+Network packet filtering is the act of examining the source and destination parameters of a packet and deciding whether
+to let them through for further processing or not. Packet filtering is usually done based on source and destination IP address and port number.
+- stateful / stateless firewalls
+
 # IP routing analogies 1
 - "I know which way I came in, why couldn't I just go back?"
 - packet: a blind little ball - it doesn't know which direction it went on each hop
