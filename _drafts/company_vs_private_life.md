@@ -21,3 +21,9 @@ miért alapítunk szervezeteket?
 "kirúgjuk-e András-t?"
     - egy kolléga, aki kedvel engem, nem fogja támogatni ezt a döntést, bár lehet, hogy a cégnek valóban nem termelek elég hasznot
     - ha a cégtulajdonosok közeli barátai lennének akkor sokkal objektívebben állna a munkám étékeléséhez
+
+- headlines like "eu and japan create worlds biggest free trade zone"
+- a cegek igy mar nem versengenek a piacrajutason, vagyis kiegyenlitettebb a verseny
+- a cegnek nehezebb elonybe kerulni, de a maganemberek mindenhol nyernek. A ceg is maganemberekbol all!
+- a ceged erdekei attetelesen szemben allnak a sajat erdekeiddel! Pl ha kizarolagossaga van valamire, az lehet h neked mint cegtulajdonksnak jo, de ha az egesz ismeretsegi korodet nezed, lehet h egyuttesen nagyobb hatranyt szenvedtek miatta
+- they could compete for everything, they could share share everything, or anything in between
