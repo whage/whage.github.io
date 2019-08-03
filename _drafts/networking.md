@@ -61,7 +61,7 @@ to let them through for further processing or not. Packet filtering is usually d
 - had questions like
     - "why don't we specify a subnet mask for the destination?"
     - "is the subnet mask implied by the IP address?"
-- just a logical grouping of IP addressess! nothing more
+- a subnet is just a logical grouping of IP addressess! nothing more
 - they exist at the router's level -> directs traffic
 - subnets "don't exist". They are just a way of grouping addresses so that setting routing rules requires less space
     - no machine can say "hey I'm part of this exact subnet"
