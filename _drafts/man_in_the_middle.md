@@ -1,0 +1,4 @@
+- a man-sized black box with 2 tubes at two ends
+- sender is on one end, receiver is on the other
+- a 3rd person can get into the box and do whatever he pleases with the messages before forwarding them
+- how can the sender and receiver trick the man in the middle?
