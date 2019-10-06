@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Amsterdam"
-date:   2019-08-20 16:00:00 +0100
+title: "Amsterdam jobs"
+date: 2019-08-20 16:00:00 +0100
 categories: personal
 tags: jobs, career
 ---
@@ -21,5 +21,6 @@ Key qualifications they expect:
 - monitoring: Grafana, Prometheus, Zabbix
 - distributed systems tech: Couchbase, Redis, Cassandra, ElasticSearch
 - big adat: Hadoop, Kafka, Spark
+
 
 Ok. Half of that I don't even want to know.
