@@ -9,9 +9,9 @@ tags: rm delete
 I won't find the `rm -rf` jokes that funny anymore. Yesterday as I was testing a deployment bash script
 on my laptop, I set some environment variables and run a script that executed `rm -rf $STARTUP_ENV_DIR`.
 That variable was accidentally set to `~/`. In a fraction of a second, some strange "Permission denied" error
-messages appeared in my terminal (to which I'll get back later in this post) and in a few seconds it began to sink in:
+messages appeared (to which I'll get back later in this post) and in a few seconds it began to sink in:
 I deleted all my music, pictures, work files, everything I had in `/home/asallai`.
-My heartrate increased, my forehead started to become sweaty and I just
+My heartrate increased, I started to sweat and I just
 sat there looking at the screen not understanding how it could happen to me. Never before have I done anything like it.
 I couldn't even imagine someone accidentally doing it. You'd have to be so stupid and careless I thought!
 How could someone ever type `rm -rf ~/`? As it turns out, I never had to type that in, the script used a variable for the path.
@@ -87,7 +87,9 @@ It starts going down the directory hierarchy. It sees that `korte` is not writab
 This might already be confusing because `barack` is itself writable. But that only means  **its children** can't be deleted.
 It, again, goes deeper. It finds `k.txt` inside `barack`. Since `barack` is writable, it can finally wreak some havoc and deletes `k.txt`.
 
-So it ended up deleting a file 3 levels down from where we issued the command and left the rest intact. "Obviously!"
+So it ended up deleting a file 3 levels down from where we issued the command and left the rest intact.
+"Obviously!"...
+
 At least now I know.
 
 The `-r` flag indicates that it should start descending into subdirectories. You have to add that flag if you start with a directory.
