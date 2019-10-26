@@ -1,0 +1,98 @@
+---
+layout: post
+title:  "Accidentally deleted my home directory"
+date:   2019-10-26 22:00:00 +0100
+categories: linux
+tags: rm delete
+---
+
+I won't find the `rm -rf` jokes that funny anymore. Yesterday as I was testing a deployment bash script
+on my laptop, I set some environment variables and run a script that executed `rm -rf $STARTUP_ENV_DIR`.
+That variable was accidentally set to `~/`. In a fraction of a second, some strange "Permission denied" error
+messages appeared in my terminal (to which I'll get back later in this post) and in a few seconds it began to sink in:
+I deleted all my music, pictures, work files, everything I had in `/home/asallai`.
+My heartrate increased, my forehead started to become sweaty and I just
+sat there looking at the screen not understanding how it could happen to me. Never before have I done anything like it.
+I couldn't even imagine someone accidentally doing it. You'd have to be so stupid and careless I thought!
+How could someone ever type `rm -rf ~/`? As it turns out, I never had to type that in, the script used a variable for the path.
+I accidentally left off a subdirectory from the end of the $STARTUP_ENV_DIR variable. That was it.
+
+Most file systems of today don't delete the actual data in a file when you delete it. They only remove the references
+to the blocks of the data on the disk to make the process faster. After the blocks are "unlinked", the filesystem sees that
+space as "empty" and it reports it to you as free space where you can write new data. 
+But if you bypass the filesystem and read the raw blocks from the disk with a special program, you can still
+find the old file data intact as long as something else was not written to the place where it was.
+So I immediately started googling for recovery solutions.
+
+I found `testdisk` and eventually its extension `photorec` from [cgsecurity][cgsec]. It seems to be able to recover a lot of file types
+as listed on their website with one important exception: mp3 files.
+Even though `photorec` claimed to have found them, it created 2,1 kB sized mp3 files during the recovery process,
+none of which seemed to be reconstructed properly. I have to do more research on this topic to understand why this happened
+but in the end I was unfortunately unable to get my lost music back. Sad.
+Also, source code, as it is just plain text can't be properly reconstructed because there is no metadata whatsoever within
+the contents of the file. The first few runs of the recovery I tried created an incredible amount of `.txt` files which 
+contained various bits of source code in c or java or python, but the tool could neither reconstruct the original file name, neither the extension so the results were unusable.
+Information about the deleted directory hierarchy is also missing so what you get at the end of the recovery is a giant pile of
+randomly named files next to each other without any order (`photorec` dumps them in numbered directories but that doesn' help either.)
+
+[cgsec]: https://www.cgsecurity.org
+
+To be honest, it is not such a tragedy, as I keep the most important things on my desktop PC and some of it even in the
+cloud but still, I just lost a significant amount of really valuable data. It was a really strange night.
+I felt like some of my memories have been deleted. It's strange how much our data means to us these days.
+
+But there usually is a bright side. In this case it was that I learned a lot in the process.
+The most important bit is finally understanding how `rm` works, which I want to share with you.
+
+_To be clear, the script ran as my normal user, not with sudo_
+
+So in order to delete files in a Linux based system
+(with regards to the the file permissions and ignoring other security mechanisms like MAC and whatnot) you have to have
+write permissions **on the direct parent directory** of the file (or directory) you want to delete.
+What happens if there are more levels?
+Let's suppose the following directory hierarchy (as output by `tree -p`:
+
+```
+.
+└── [dr-xr-xr-x]  alma
+    └── [dr-xr-xr-x]  korte
+        ├── [-r-xr-xr-x]  a.txt
+        └── [drwxr-xr-x]  barack
+            └── [-rw-rw-r--]  k.txt
+```
+
+What happens if we issue an `rm -rf alma` in the current directory?
+
+```
+$ rm -rf alma
+/bin/rm: cannot remove 'alma/korte/a.txt': Permission denied
+/bin/rm: cannot remove 'alma/korte/barack': Permission denied
+```
+
+And you end up with the following files after it is finished:
+
+```
+.
+└── [dr-xr-xr-x]  alma
+    └── [dr-xr-xr-x]  korte
+        ├── [-r-xr-xr-x]  a.txt
+        └── [drwxr-xr-x]  barack
+```
+
+What happened?
+
+It sees that `alma` is not writable. So `korte` can't be deleted! Does it stop there? Guess what, it doesn't.
+It starts going down the directory hierarchy. It sees that `korte` is not writable either so neither `a.txt` or
+`barack` can be deleted as noted by the `Permission denied` messages.
+This might already be confusing because `barack` is itself writable. But that only means  **its children** can't be deleted.
+It, again, goes deeper. It finds `k.txt` inside `barack`. Since `barack` is writable, it can finally wreak some havoc and deletes `k.txt`.
+
+So it ended up deleting a file 3 levels down from where we issued the command and left the rest intact. "Obviously!"
+At least now I know.
+
+The `-r` flag indicates that it should start descending into subdirectories. You have to add that flag if you start with a directory.
+The `-f` flag makes it silent ("ignore nonexistent files and arguments, never prompt").
+If you leave off the `-f` flag and do `rm -r alma` then it will ask: `descend into write-protected directory 'alma'?`
+but leaving the -f off is not an option if you are running it from a script somewhere non-interactively.
+
+Be careful with `rm`. Even without sudo.
