@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Accidentally deleted my home directory"
-date:   2019-10-26 22:00:00 +0100
+date:   2019-10-26 19:00:00 +0100
 categories: linux
 tags: rm delete
 ---
@@ -10,7 +10,7 @@ I won't find the `rm -rf` jokes that funny anymore. Yesterday as I was testing a
 on my laptop, I set some environment variables and run a script that executed `rm -rf $STARTUP_ENV_DIR`.
 That variable was accidentally set to `~/`. In a fraction of a second, some strange "Permission denied" error
 messages appeared (to which I'll get back later in this post) and in a few seconds it began to sink in:
-I deleted all my music, pictures, work files, everything I had in `/home/asallai`.
+I deleted all my music, pictures, work files, almost everything I had in `/home/asallai`.
 My heartrate increased, I started to sweat and I just
 sat there looking at the screen not understanding how it could happen to me. Never before have I done anything like it.
 I couldn't even imagine someone accidentally doing it. You'd have to be so stupid and careless I thought!
