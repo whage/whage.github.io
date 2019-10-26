@@ -29,9 +29,11 @@ as listed on their website with one important exception: mp3 files.
 Even though `photorec` claimed to have found them, it created 2,1 kB sized mp3 files during the recovery process,
 none of which seemed to be reconstructed properly. I have to do more research on this topic to understand why this happened
 but in the end I was unfortunately unable to get my lost music back. Sad.
+
 Also, source code, as it is just plain text can't be properly reconstructed because there is no metadata whatsoever within
 the contents of the file. The first few runs of the recovery I tried created an incredible amount of `.txt` files which 
 contained various bits of source code in c or java or python, but the tool could neither reconstruct the original file name, neither the extension so the results were unusable.
+
 Information about the deleted directory hierarchy is also missing so what you get at the end of the recovery is a giant pile of
 randomly named files next to each other without any order (`photorec` dumps them in numbered directories but that doesn' help either.)
 
