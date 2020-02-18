@@ -1,0 +1,1 @@
+# Don't share articles or videos with others that you yourself didn't fully comprehend

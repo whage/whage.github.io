@@ -14,3 +14,10 @@
     - problems that pointers create
 - explain why it is important to understand C (and thus how computer memory works) in order to understand higher lvl concepts
 - https://stackoverflow.com/questions/162941/why-use-pointers
+
+# How high level languages implement dynamic arrays
+- go `append()` fv. tanulás közben gondolkodtam el, hogy magasabb szintű nyelvek hogy oldják meg
+hogy amikor újra kell allokálni helyet egy tömbnek akkor az "aliasok" is up-to-date maradjanak
+    - talán úgy, hogy kétszeres indirekciót használnak?
+        - a változó nem a tömb helyére mutat, hanem egy "pointerre", ami függetlenül
+        a tömb méretétől mindig ugyanott marad? **TODO: rajz!**
