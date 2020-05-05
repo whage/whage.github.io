@@ -13,6 +13,8 @@ But what's more important is that I finally understood the basic concepts relate
 to file systems which haunted me for a long long time. It all really makes sense now
 and it feels good!
 
+<!--more-->
+
 I also went through the install guide of Arch Linux and installed it on a VM after hearing
 that some of my teammates were well ahead of me in this regard.
 The GUI part is still ahead and I expect to learn a fair bit while I'm getting through it.
