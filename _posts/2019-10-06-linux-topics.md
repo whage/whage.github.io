@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux topics"
-date: 2019-08-20 16:00:00 +0100
+date: 2019-10-06 16:00:00 +0100
 categories: personal
 tags: linux, learning
 ---
