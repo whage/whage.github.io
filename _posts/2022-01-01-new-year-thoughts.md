@@ -28,7 +28,7 @@ This was a great decision: even better pay, a low-stress environment with lots o
 a cool mentor/teammate and a nice team of reasonable, grown-up people.
 
 On the side, I also kept working on our custom PACS solution which started to earn me some nice extra money.
-I was also slowly progressing at the university to finally earn Bsc in software.
+I was also slowly progressing at the university to finally earn my Bsc in software.
 This last semester I completed all the subjects, finished my thesis and I'm currently studying for my finals
 at the end of January.
 
