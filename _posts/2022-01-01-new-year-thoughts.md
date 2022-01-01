@@ -35,7 +35,7 @@ at the end of January.
 We are also buying our first home. Lots of things in the past few months.
 And now, here I am, sitting at the desk writing this post thinking about how in 2 days, I'll be back in the saddle.
 I really can't complain about my current job... we are paid very well, we use interesting tech, I'm in a decent team with
-quite little stress and lots of flexibility... but still I feel like I'm speding 8 hours a day doing stuff I don't care about.
+quite little stress and lots of flexibility... but still I feel like I'm spending 8 hours a day doing stuff I don't care about.
 I really want to change that.
 
 First, I need to finish my studies this month.
