@@ -10,6 +10,8 @@ The end of the year is always a wonderful time because this is when I get to spe
 and that means more time for thinking and making realizations about what I should and should not be doing in my
 everyday life.
 
+<!--more-->
+
 Again, 1.5 years have passed since I wrote my last post [about my plans for learning new stuff][into-cpp] that I thought 
 would help me steer my professional life into a better direction.
 Guess what, I didn't make any progress on that front and that feels... discouraging.
