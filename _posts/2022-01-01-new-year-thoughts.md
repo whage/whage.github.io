@@ -43,7 +43,7 @@ Then the new home project will surely take a few months of free time away (but i
 But then... I want to initiate some change in my professional life. In 2 ways: what I do and when I do it.
 I want to be working on something I care about. I keep a list of those things in a safe place, maybe I'll share them
 in an upcoming post.
-As for the "when", I mean when during the day and also how much each day. I'd really like to be working less and less
+As for the "when", I mean when during the day and also how much each day. I'd really like to be working less overall and also less
 at times when I could be doing other, more important things like spending time with my son or going outdoors or exercising
 or even just sitting down and thinking about things I find important.
 
