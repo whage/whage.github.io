@@ -16,14 +16,18 @@ Guess what, I didn't make any progress on that front and that feels... discourag
 
 On the other hand, I don't really feel guilty because many other things happened and I was far from idle
 during this period. In August 2020 my son was born. What an amazing little kid... That same month I also left Evosoft for Morgan Stanley.
-Pay was great but the work and the environment was beyond terrible so I left after 4 months and followed
-one of my Evosoft friends, [@karandit][karandit] to DMG-MORI to do infrastructure automation stuff.
-This was a very good move: even better pay, a low-stress environment with lots of shiny tech to show off on my CV,
+Evosoft was an amazingly friendly place and I was part of an especially nice and friendly team
+but our project was falling apart and we had to make a move.
+I accepted the job at MS mostly because the pay was great and also thought that it would look badass on my CV.
+Unfortunately the work and the environment was beyond terrible so I left after just 4 months to follow
+one of my Evosoft friends, [@karandit][karandit] to DMG-MORI (a company I never even heard about at the time)
+to do infrastructure automation stuff.
+This was a great decision: even better pay, a low-stress environment with lots of shiny tech to show off on my CV,
 a cool mentor/teammate and a nice team of reasonable, grown-up people.
 
 On the side, I also kept working on our custom PACS solution which started to earn me some nice extra money.
 I was also slowly progressing at the university to finally earn Bsc in software.
-This last semester I completed all the subjects and finished my thesis, currently studying for my finals
+This last semester I completed all the subjects, finished my thesis and I'm currently studying for my finals
 at the end of January.
 
 We are also buying our first home. Lots of things in the past few months.
