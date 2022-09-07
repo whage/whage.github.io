@@ -22,4 +22,4 @@ I had the idea to spend some time learning about interesting open source c/c++ o
 a summary writeup of their architectures. See [older post][cpp-projects] with some inspiration on what to pick
 
 [cpp-projects]: {{ site.baseurl }}{% post_url 2020-05-18-into-cpp %}
-[routerguide]:(https://openbsdrouterguide.net/)
+[routerguide]: https://openbsdrouterguide.net/

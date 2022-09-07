@@ -18,4 +18,4 @@ tags:       home, thoughts,
 	- I want to get it back, I want to feel excited and curious about software again
 	- want to work on meaningful things and not waste my working life just for the money
 
-[nasa]:(https://mystudentvoices.com/a-look-into-nasas-coding-philosophy-b747957c7f8a)
+[nasa]: https://mystudentvoices.com/a-look-into-nasas-coding-philosophy-b747957c7f8a
