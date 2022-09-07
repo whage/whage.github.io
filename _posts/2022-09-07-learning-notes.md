@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Learning time
-date:       2022-07-09 22:00:00 +0100
+date:       2022-09-07 22:00:00 +0100
 categories: family, work, learning
 ---
 
