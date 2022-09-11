@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 I'm a software developer from Budapest, Hungary.
-I started out as a web application developer but my interests gradually shifted towards other domains of the software world,
-where the scope of the work is broader and where the focus is on performance and efficiency instead of just speed of development.
+I started out as a self-taught web application developer. My interests gradually shifted towards other domains of the software world,
+mostly the lower layers - systems software, operating systems, networking.
 
 [Download my CV as a pdf document][cv-link]
 
