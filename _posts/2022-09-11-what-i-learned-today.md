@@ -11,6 +11,11 @@ scenario.
 See [Linux ate my ram][linux-ate]. Check "Available" instead of "Free".
 Linux memory management is complex. See `/proc/meminfo`.
 
+> Linux performs all file I/O through the page cache. Writes are implemented as simply marking as dirty the
+> corresponding pages in the page cache; the flusher threads then periodically write back to disk any dirty pages.
+> Reads are implemented by returning the data from the page cache; if the data is not yet in the cache, it is first populated.
+> [difference between Buffers and Cached][buff-vs-cached]
+
 Questions
 
 Difference between `virbr0` and `virbr0-nic`. Why one has an IP address configured by default and the other doesn't?
@@ -24,3 +29,4 @@ Difference between `virbr0` and `virbr0-nic`. Why one has an IP address configur
 ```
 
 [linux-ate]: https://www.linuxatemyram.com/
+[buff-vs-cached]: https://qr.ae/pvOegP
