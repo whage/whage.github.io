@@ -7,7 +7,7 @@ categories: c++, programming, career
 I interviewed for cloud devops positions at a few places this summer. I got one offer at the end of August.
 Then I decided to decline and stay with my current employer in part because I was offered the same salary and because
 my current job is very low-stress and very flexible. Both are very important while you have small children.
-While still in negotiatiohn with my boss, during a meeting where we talked about the numbers he asked me this:
+While still in negotiation with my boss, during a meeting where we talked about the numbers he asked me this:
 
 > "What is going to happen if give you what you are asking? How long until you start looking around again?"
 

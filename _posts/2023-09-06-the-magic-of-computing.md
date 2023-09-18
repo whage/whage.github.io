@@ -15,10 +15,13 @@ These explorations always lead back to concepts and technology developed decades
 nostalgia and mistery and excitement. The stories of the now old pioneers of the field.
 There is something very charming about old technical writings.
 
-This time I started down the rabbithole with system calls: https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
+This time I started down the rabbithole with [system calls][syscalls].
 This article references pieces of kernel source code that were committed 12 years (!) ago. That is even before I started programming. 
 I remembere how excited I used to feel about it when I started out (only in 2012) - it was all very
 misterious and magical and the famous programmers seemed like wizards wo spend their time in some other magical world.
 
 As I'm reading these articles I feel like I'm getting tiny little doses of that excitement and wonder
 that I used to feel about computers.
+
+
+[syscalls]: https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/
