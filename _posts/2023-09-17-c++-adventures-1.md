@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      C++ adventures - part I.: First questions
+title:      C++ adventures, part I. - First questions
 date:       2023-09-17 23:30:00 +0100
 categories: c++, programming, career
 ---
