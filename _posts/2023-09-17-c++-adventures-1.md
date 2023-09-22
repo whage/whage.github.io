@@ -25,5 +25,6 @@ It will be nice to look back at this list once I know the answers and it might a
 - what is CMake and why do we need it? is Make not enough?
 - how does the linker work? how do I control it?
 - what are the most used compilers / build tools?
+- template syntax
 
 [orthanc-source]: https://hg.orthanc-server.com/
