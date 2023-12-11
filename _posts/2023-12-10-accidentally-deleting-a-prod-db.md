@@ -10,6 +10,8 @@ I'm still in shock of how this could have happened to me, I tend to think of mys
 around prod stuff. Previously I thought this was only possible if you are really careless and stupid. 
 To be fair, it is. I was careless and stupid. This is how it happened.
 
+<!--more-->
+
 We recently got contracted to take over the maintenance of a legacy medical data management app
 that is running at a major healthcare provider.
 I was one of its developers from 2015 until 2018 but haven't seen or touched it for years now.
