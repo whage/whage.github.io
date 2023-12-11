@@ -64,6 +64,8 @@ comment-looking lines:
 
 Figuring out why these are there and how they could work (running it directly from DBeaver resulted in errors)
 occupied most of my attention that I allocated for understanding MariaDB just enough to have it running.
+At the end I used the mysql cli to import the schema and it didn't complain about the above lines, they
+turned out not to be very important for me now.
 I didn't really pay attention to the rest of the SQL, but later I realized that every table creation
 block in it started like this:
 
