@@ -37,9 +37,9 @@ I'll actually be running everything against the prod DB.
 
 The second stupid thing I did was using the same MariaDB credentials when setting up my local DB.
 I just took the prod docker-compose.yml file unaltered and used it, the MariaDB credentials were set there as
-environment variables for the DB container.
-So now it was possible to accidentally talk to the prod DB through localhost AND authenticate using the same credentials.
-What could go wrong?
+environment variables for the DB container. I thought, "of course I'll change that later, just have it running already".
+I didn't change it, so now it was possible to accidentally talk to the prod DB through localhost
+AND authenticate using the same credentials. What could go wrong?
 
 Now for the third thing. There was no DB schema description or DB initializer script anywhere in the docs or the source,
 so I decided to get the schema from the prod DB without any data using this:
@@ -118,12 +118,12 @@ This happened on a saturday afternoon so there is likely to be only minor data l
 Data loss non the less, but probably the best scenario I could have hoped for.
 
 I am still shocked and ashamed. I still cringe when I think about what could have happened if we don't have
-those IT guys, those _other people_ who, as opposed to me, do their jobs right and whose cautiousness saved everyone but mostly me.
+those IT guys, those _other people_ who, as opposed to me, do their jobs right and whose cautiousness saved everyone.
 
 So what could have I done better?
 
 - do not, by all means forward a port from localhost to the same port of a prod system
-- do not ever reuse credentials of a prod system locally
+- do not ever reuse credentials of a prod system locally, not even temporarily
 - do look at what exactly you will be running
 - disconnect from your prod system immediately when you have no more business there
 
