@@ -109,7 +109,7 @@ It's also a lesson about our reliance on _other people_ and keeping calm when th
 afternoon and besides the initial surprise and horror noone was angry at me - which would be absolutely normal.
 Our sys admin who is normally not the friendliest guy on the planet (but has remarkable technical knowledge of computers down to the hardware),
 was really calm and immediately started looking through the server to find traces of backups.
-His initial reaction was "Oh, you did that? It's not the end of the world, I did this in the past as well"
+His initial reaction was "Oh, you did that? It's not the end of the world, I did this in the past as well".
 When I said to my boss how sorry I was and how stupid I feel, he said "It's okay, obviously you didn't do it on purpose, I'm not angry."
 
 This time (as I am usually for some unknown reason) I was very lucky that the guys who are running these systems
