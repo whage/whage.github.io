@@ -127,5 +127,5 @@ So what could have I done better?
 - do look at what exactly you will be running
 - disconnect from your prod system immediately when you have no more business there
 
-So guys, be decent, be wary, know your systems and be prepared to handle a ****up like this on your systems.
+So guys, be decent, be wary, know your stuff and be prepared to have a careless, stupid guy ruin your system.
 Decent, cautious, well-prepared, skilled, competent people saved the day.
