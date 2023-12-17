@@ -11,6 +11,8 @@ While still in negotiation with my boss, during a meeting where we talked about 
 
 > "What is going to happen if give you what you are asking? How long until you start looking around again?"
 
+<!--more-->
+
 That's a fair question. 
 I knew there were other projects at our company (embedded, e-mobility) so I told him about my plans about getting into C/C++ and that I eventually want to move away from devops. If it is possible for me to switch within the company and they can help me with mentoring, then it's perfect, I won't be going anywhere soon.
 I was told that right now there are no openings but soon there might be new positions.
