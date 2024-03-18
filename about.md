@@ -8,8 +8,8 @@ I'm a software developer from Budapest, Hungary.
 I started my software career as a web application developer but my interests
 gradually shifted towards other domains of the computing world,
 mostly the lower layers - operating systems, networks, things close to the hardware.
-I began as a self-taught developer and after struggling with impostor syndrom for years I
-eventually acquired a Bsc in computer science & software engineering. It helped somewhat.
+I began as a self-taught developer but eventually acquired a Bsc in
+computer science & software engineering.
 
 I spent the first 5 years of my software career with the good old LAMP stack and javascript.
 Then in 2018 I switched to cloud infrastructure / devops and I'm still in that field as of 2024.
