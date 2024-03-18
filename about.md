@@ -5,15 +5,14 @@ permalink: /about/
 ---
 
 I'm a software developer from Budapest, Hungary.
-Started out as a self-taught web application developer.
-My interests gradually shifted towards other domains of the software world,
-mostly the lower layers - systems software, operating systems, networking.
-I eventually acquired a Bsc in computer science & software engineering.
+I started my software career as a web application developer but my interests
+gradually shifted towards other domains of the computing world,
+mostly the lower layers - operating systems, networks, things close to the hardware.
+I began as a self-taught developer and after struggling with impostor syndrom for years I
+eventually acquired a Bsc in computer science & software engineering. It helped somewhat.
 
-I spent the first 5 years of my software career as a web application developer with
-a very traditional LAMP stack.
-After that the following 5 years were cloud infrastructure / devops.
-What will the 3rd 5 years be about?
+I spent the first 5 years of my software career with the good old LAMP stack and javascript.
+Then in 2018 I switched to cloud infrastructure / devops and I'm still in that field as of 2024.
 
 Besides my day job, I have a side project / business partnership where we develop and provide
 a [PACS][pacs] and medical image sharing application stack to health care providers.
