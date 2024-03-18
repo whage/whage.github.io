@@ -11,7 +11,7 @@ mostly the lower layers - operating systems, networks, things close to the hardw
 I began as a self-taught developer but eventually acquired a Bsc in
 computer science & software engineering.
 
-I spent the first 5 years of my software career with the good old LAMP stack and javascript.
+I spent the first 5 years of my software career with the good old LAMP stack.
 Then in 2018 I switched to cloud infrastructure / devops and I'm still in that field as of 2024.
 
 Besides my day job, I have a side project / business partnership where we develop and provide
