@@ -7,7 +7,7 @@ categories: career, life
 
 I think I finally came to terms with my mediocrity as a software guy.
 
-In early 2025 I quit workgin for a big multi-national company to be the sole
+In early 2025 I quit working for a big multi-national company to be the sole
 full-time developer at a small small company that I helped start with a former colleague.
 I have been working for large software companies since 2018 and I realised that these
 places are not really aligned with my goals.
@@ -17,7 +17,7 @@ Here are a few thoughts about all this.
 <!--more-->
 
 Early in my career when I was interviewing for software positions I often
-got to see the insides of serious software companies. Huge, fance open offices, kickass
+got to see the insides of serious software companies. Huge, fancy open offices, kickass
 developer stations with huge screens, very smart looking people everywhere.
 I wanted to be a part of that so bad. I always wanted to prove that I am good.
 Intelligent, skilled, thorough, to prove that I also belong to a fancy open office like that
