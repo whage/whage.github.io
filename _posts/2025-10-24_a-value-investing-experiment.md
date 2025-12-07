@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A value investing experiment"
-date:       2023-10-24 12:00:00 +0100
+date:       2025-10-24 12:00:00 +0100
 categories: finance, investment
 ---
 
