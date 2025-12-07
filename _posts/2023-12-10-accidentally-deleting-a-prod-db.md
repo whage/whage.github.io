@@ -93,7 +93,7 @@ Empty. The second one is empty. The third one is empty. All the others too.
 
 _\*gulp\*_
 
-I went to Slack and wrote to my colleages: "I did something bad. I dumped the prod DB. Do we have backups?"
+I went to Slack and wrote to my colleages: "I did something bad. I deleted the prod DB. Do we have backups?"
 I couldn't even say "I'm sorry" because it felt so useless and meaningless.
 My phone rang within a minute, and my colleague asked me in a quavering voice: "Are you serious? Oh **** that's a huge problem."
 The next 30 minutes were intense.
@@ -106,7 +106,7 @@ This is an important lesson for me about being very careful around production sy
 Also a lesson about the meaning of "safety first" - what if those nightly backups were not put in place by someone?
 I can't even imagine the consequences.
 It's also a lesson about our reliance on _other people_ and keeping calm when things go wrong. Everyone was reachable on a saturday
-afternoon and besides the initial surprise and horror noone was angry at me - which would be absolutely normal.
+afternoon and besides the initial surprise and horror noone was angry at me - which would have been absolutely normal.
 Our sys admin who is normally not the friendliest guy on the planet (but has remarkable technical knowledge of computers down to the hardware),
 was really calm and immediately started looking through the server to find traces of backups.
 His initial reaction was "Oh, you did that? It's not the end of the world, I did this in the past as well".
@@ -128,4 +128,4 @@ So what could have I done better?
 - disconnect from your prod system immediately when you have no more business there
 
 So guys, be decent, be wary, know your stuff and be prepared to have a careless, stupid guy ruin your system.
-Decent, cautious, well-prepared, skilled, competent people saved the day.
+Decent, cautious, well-prepared, skilled, competent people saved the day once again.

@@ -60,7 +60,7 @@ Bought the following stocks:
 - Conagra - $18.47 / share
 - Kosmos Energy - $1.61 / share
 - Huntsman - $8.75 / share
-- Brown-Forman - $27.00
+- Brown-Forman - $27.00 / share
 
 I did this with a relatively small portion of my portfolio and after months of moving money off the stock market
 i.e. being bored of waiting for a dip.
