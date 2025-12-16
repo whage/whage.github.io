@@ -6,13 +6,12 @@ categories: finance, investment
 ---
 
 Value investors manage their portfolios based on the following ideas:
-- calculate intrinsic value based on fundamental analysis
-- buy stocks that are considered cheap compared to their intrinsic values
-- hold stock for a longer time
+- calculating "intrinsic value" based on fundamental analysis
+- buying stocks that are considered cheap compared to their intrinsic value - a "margin of safety"
 
 The value investor philosophy is based on the assumption that a stock can be severely mispriced
-relative to its intrinsic value because of some recent economic, political or whatever event but in the long run
-its price will match the company's performance as a business.
+relative to its intrinsic value because of recent economic, political or other events but in the long run
+its price will match the company's value as a business.
 
 Now, there are these things called [13F filings][13f] - documents that large institutional investment managers
 are required to submit for the SEC detailing ther most significant positions.
