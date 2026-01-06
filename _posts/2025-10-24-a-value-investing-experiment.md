@@ -105,7 +105,8 @@ I think it will help find and fix potential flaws in my decision making.
 
 As a continuation, I'd like to learn about the basics of quantitative analysis and implement
 something that can automatically recognize the stock price pattern that I was looking for in these purcheses:
-steady long term growth with a large recent drop.
+steady long term growth (examined on a log scale!) with a large recent drop, the typical example here being FMC or Brown-Forman.
+Intuitively these look like very good investments, I'd like to gather meaningful data on this topic.
 
 [13f]: https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets
 [whale]: https://whalewisdom.com/
