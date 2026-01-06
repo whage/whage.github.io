@@ -96,9 +96,10 @@ In particular, the following were my main thoughts that I distilled so far and I
 
 This little portfolio is like a poor man's "consumer-essentials-tilted-super-cheap-ex-ai" index.
 But then why wouldn't I just pick an ETF along these lines? Well, I didn't really find one but I didn't look that long.
-The above 15 stocks are probably way too small of a sample to draw any conclusions from my results
-even years from now. That means I won't really be able to say to myself - "hey, good job" or "oh you dumbass".
-Or will I? I'm not sure - and that's bad, or at least a sign that I should study this topic more.
+The above 15 stocks are probably too small of a sample to draw any conclusions from my results
+even years from now. Will I be able to say "hey, good job" or "oh you dumbass" after x years based on results?
+Maybe. Maybe it is not that small of a sample - my intuition tells me it isn't but I'm not sure - and that's bad,
+or at least a sign that I should study this topic more.
 
 I'm doing this in large part to learn and to force myself to think. To think about how and why I make decisions.
 I think it will help find and fix potential flaws in my decision making.
