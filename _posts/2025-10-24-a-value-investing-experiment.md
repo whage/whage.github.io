@@ -45,31 +45,67 @@ I was looking for stocks where the long term trend (last 10-20-30 years if possi
 but the current price is quite depressed.
 
 Bought the following stocks:
-- FMC - $29.95 / share
-- Constellation Brands - $139.73 / share
-- Lululemon - $179.13 / share
-- Charter Communications - $245.04 / share
-- Magnachip - $3.12 / share
-- Sprouts Farmers Market - $109.37 / share
-- Liberty Broadband - $56.18 / share
-- Organon - $9.05 / share
-- Gentex - $26.32 / share
-- Wendy's - $9.02 / share
-- Flowers Foods - $12.56 / share
-- Conagra - $18.47 / share
-- Kosmos Energy - $1.61 / share
-- Huntsman - $8.75 / share
-- Brown-Forman - $27.00 / share
+- FMC
+- Constellation Brands
+- Lululemon
+- Charter Communications
+- Magnachip
+- Sprouts Farmers Market
+- Liberty Broadband
+- Organon
+- Gentex
+- Wendy's
+- Flowers Foods
+- Conagra
+- Kosmos Energy
+- Huntsman
+- Brown-Forman
 
 I did this with a relatively small portion of my portfolio and after months of moving money off the stock market
-i.e. being bored of waiting for a dip.
-I have to admit, I might have been hasty - I didn't do much research, just looked at a bunch of numbers
-like PE, revenue, income growth and most importantly the price charts and the prices of the stocks relative
+being afraid of high valuations but also feeling some FOMO while waiting for a dip.
+I have to admit, I might have been hasty - I didn't do much research on these companies, just looked at a bunch of numbers
+like P/E, P/B, revenue, income growth and most importantly the price charts and the prices of the stocks relative
 to the price the mentioned investors paid for them.
 
 Since these were bought on the premise of being good value stocks, I should be holding on to them and
-not be emotional about short term swings. Ideally I wouldn't touch these positions
-for the coming 2-5 years. Sounds tough to do.
+not be emotional about short term swings. Ideally I wouldn't sell any of these positions
+for the coming 5-10 years unless there is a large sudden increase in their value.
+Buying more of them is allowed, I guess.
+
+I should point out that this is an "experiment" in the sense that I'm trying to test my
+ability to take more risks (as opposed to just buying and holding lower risk funds), to handle potential swings
+and to be somewhat exposed to the world of finance and economics. To see what I can learn.
+I obviously want this to succeed and produce good returns but this is not an "experiment" in the sense that I would evaluate
+it based on outcome in a number of years - this is of critical importance.
+Our decisions about uncertain future events must not be judged by their outcome.
+They should be judged by how much effort we spent processing and evaluation the available information at the time.
+
+I believe my reasoning for buying these stocks makes sense and that I made a reasonable decision, but
+I also feel like I'm trying to rationalize it **after** making this move and I'm making some
+important realisations as I'm writing this.
+On one hand I feel like I have too much faith in my - admittedly quite rudimentary - idea but on the
+other hand I feel like I was thinking for long enough about what to do with my money in 2025 and 
+this is the accumulation of ideas and principles that I learned from sources I find trustworthy.
+In particular, the following were my main thoughts that I distilled so far and I found relevant currently:
+- the glamourous tech stocks that produced huge returns recently seem overvalued
+- the popular stock indexes are heavily concentrated in tech stocks
+- value investing (especially the notion of buying very cheap stocks) seems to be a reasonable idea
+- small cap value stocks outperform large cap growth stocks according to academia
+- consumer essentials did well during market crashes which seem more and more likely
+- wanting more returns than what bonds would yield
+
+This little portfolio is like a poor man's "consumer-essentials-tilted-super-cheap-ex-ai" index.
+But then why wouldn't I just pick an ETF along these lines? Well, I didn't really find one but I didn't look that long.
+The above 15 stocks are probably way too small of a sample to draw any conclusions from my results
+even years from now. That means I won't really be able to say to myself - "hey, good job" or "oh you dumbass".
+Or will I? I'm not sure - and that's bad, or at least a sign that I should study this topic more.
+
+I'm doing this in large part to learn and to force myself to think. To think about how and why I make decisions.
+I think it will help find and fix potential flaws in my decision making.
+
+As a continuation, I'd like to learn about the basics of quantitative analysis and implement
+something that can automatically recognize the stock price pattern that I was looking for in these purcheses:
+steady long term growth with a large recent drop.
 
 [13f]: https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets
 [whale]: https://whalewisdom.com/
