@@ -6,9 +6,7 @@ categories: language
 ---
 
 To make the long and dry pages of scientific literature easier to swallow I suggest replacing
-"et al." with "atl." in references.
-
-"And the lads".
+"et al." with "atl." in references. That's short for "And the lads".
 
 Example
 
