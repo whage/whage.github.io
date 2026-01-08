@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "The new et al."
-date:       2026-01-08 22:00:00 +0100
+date:       2026-01-08 06:00:00 +0100
 categories: language
 ---
 
