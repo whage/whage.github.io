@@ -81,22 +81,22 @@ Our decisions about uncertain future events must not be judged by their outcome.
 They should be judged by how much effort we spent processing and evaluation the available information at the time.
 
 I believe my reasoning for buying these stocks makes sense and that I made a reasonable decision, but
-I also feel like I'm trying to rationalize it **after** making this move and I'm making some
+I also feel like I'm trying to justify it even more **after** making this move and I'm making some
 important realisations as I'm writing this.
 On one hand I feel like I have too much faith in my - admittedly quite rudimentary - idea but on the
 other hand I feel like I was thinking for long enough about what to do with my money in 2025 and 
 this is the accumulation of ideas and principles that I learned from sources I find trustworthy.
 In particular, the following were my main thoughts that I distilled so far and I found relevant currently:
-- the glamourous tech stocks that produced huge returns recently seem overvalued
+- the glamourous tech stocks that produced huge returns recently seem way overvalued
 - the popular stock indexes are heavily concentrated in tech stocks
 - value investing (especially the notion of buying very cheap stocks) seems to be a reasonable idea
 - small cap value stocks outperform large cap growth stocks according to academia
 - consumer essentials did well during market crashes which seem more and more likely
-- wanting more returns than what bonds would yield
+- healthcare and consumer essentials stocks seem undervalued
 
-This little portfolio is like a poor man's "consumer-essentials-tilted-super-cheap-ex-ai" index.
+This little portfolio is like a poor man's "super-cheap-mostly-consumer-essentials-and-healthcare-no-ai" index.
 But then why wouldn't I just pick an ETF along these lines? Well, I didn't really find one but I didn't look that long.
-The above 15 stocks are probably too small of a sample to draw any conclusions from my results
+The above 15 stocks are likely too small of a sample to draw any conclusions from my results
 even years from now. Will I be able to say "hey, good job" or "oh you dumbass" after x years based on results?
 Maybe. Maybe it is not that small of a sample - my intuition tells me it isn't but I'm not sure - and that's bad,
 or at least a sign that I should study this topic more.
@@ -105,9 +105,26 @@ I'm doing this in large part to learn and to force myself to think. To think abo
 I think it will help find and fix potential flaws in my decision making.
 
 As a continuation, I'd like to learn about the basics of quantitative analysis and implement
-something that can automatically recognize the stock price pattern that I was looking for in these purcheses:
+something that can automatically recognize the stock price pattern that I was looking for in these purchases:
 steady long term growth (examined on a log scale!) with a large recent drop, the typical example here being FMC or Brown-Forman.
 Intuitively these look like very good investments, I'd like to gather meaningful data on this topic.
+
+Edit (2026.01):
+Since the original posit, I extended my individual stock portfolio with the following companies:
+- Novo Nordisk
+- Roper technologies
+- Target
+- Hormel
+- Pernod Ricard
+- UnitedHealth
+- Baxter
+- Becton Dickinson
+- Gartner
+
+Their price charts are very similar: decades of steady growth (on a log scale!) with a significant drop recently.
+They are trading at fairly low P/E and and some at extremely low P/B (below 1).
+Intuitively, these should mean good buy opportunities. I'll try to explore these type of stocks more and start
+gathering real data and learn about ways of analyzing it.
 
 [13f]: https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets
 [whale]: https://whalewisdom.com/
