@@ -110,7 +110,7 @@ steady long term growth (examined on a log scale!) with a large recent drop, the
 Intuitively these look like very good investments, I'd like to gather meaningful data on this topic.
 
 Edit (2026.01):
-Since the original posit, I extended my individual stock portfolio with the following companies:
+Since the original post, I extended my individual stock portfolio with the following companies:
 - Novo Nordisk
 - Roper technologies
 - Target
