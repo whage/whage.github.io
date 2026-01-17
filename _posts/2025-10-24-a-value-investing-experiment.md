@@ -20,17 +20,18 @@ are required to submit for the SEC detailing ther most significant positions.
 
 The downside of the 13F filings is that they are published for each quarter with a 45-day delay
 so the information in them are a few months old when they are made public.
-However, the  portfolios of value investors should include stocks with long term potential
+However, the  portfolios of long term value investors should include stocks with long term potential
 so a few months of delay should not mean much with regards to the long-term value they assigned to them.
-I had the idea to check their wors performing stocks because if they really did their
-homework (which I assume they did) AND they bought stocks with a "margin of safety" (also assumed)
-AND the stocks are even cheaper now than when they bought them then those stocks should be a strong buy.
+I had the idea to check the recent changes in value investor portfolios and check their worst performing
+stocks because if they really did their homework (which I assume they did) and they bought stocks with
+a "margin of safety" (also assumed) and the stocks are even cheaper now than when they bought
+them then those stocks should be a strong buy.
 
 So let's do the following:
 - take a look at the 13F filings of the most famous value investors at [WhaleWisdom][whale]
 - find stocks in their portfolios that went down since they bought them
-- check trends in their portfolios
-- buy those stocks
+- check trends - whether they have been increasing or decreasing their holdings
+- buy some stocks
 
 I took a look at the public porfolios of
 - Howard Marks (Oaktree Capital)
@@ -61,16 +62,27 @@ Bought the following stocks:
 - Huntsman
 - Brown-Forman
 
-I did this with a relatively small portion of my portfolio and after months of moving money off the stock market
+Edit (2026.01):
+Since the original post, I also bought the following:
+- Novo Nordisk
+- Roper technologies
+- Target
+- Hormel
+- Pernod Ricard
+- UnitedHealth
+- Baxter
+- Becton Dickinson
+- Gartner
+
+The price charts of most have a common theme: decades of steady growth (on a log scale!) with a significant drop recently.
+They are trading at fairly low P/E and and some at extremely low P/B (below 1).
+I imageine this is what value stocks should look like on a price chart.
+
+I did this with a relatively small portion of my portfolio and after months of keeping money off the stock market
 being afraid of high valuations but also feeling some FOMO while waiting for a dip.
-I have to admit, I might have been hasty - I didn't do much research on these companies, just looked at a bunch of numbers
+I didn't do much research on these companies, just looked at a bunch of numbers
 like P/E, P/B, revenue, income growth and most importantly the price charts and the prices of the stocks relative
 to the price the mentioned investors paid for them.
-
-Since these were bought on the premise of being good value stocks, I should be holding on to them and
-not be emotional about short term swings. Ideally I wouldn't sell any of these positions
-for the coming 5-10 years unless there is a large sudden increase in their value.
-Buying more of them is allowed, I guess.
 
 I should point out that this is an "experiment" in the sense that I'm trying to test my
 ability to take more risks (as opposed to just buying and holding lower risk funds), to handle potential swings
@@ -84,17 +96,17 @@ I believe my reasoning for buying these stocks makes sense and that I made a rea
 I also feel like I'm trying to justify it even more **after** making this move and I'm making some
 important realisations as I'm writing this.
 On one hand I feel like I have too much faith in my - admittedly quite rudimentary - idea but on the
-other hand I feel like I was thinking for long enough about what to do with my money in 2025 and 
-this is the accumulation of ideas and principles that I learned from sources I find trustworthy.
-In particular, the following were my main thoughts that I distilled so far and I found relevant currently:
+other hand I feel like I was thinking for long enough about what to do with my money and I weighed the possibilities.
+
+The main reasons I chose these particular stocks:
 - the glamourous tech stocks that produced huge returns recently seem way overvalued
 - the popular stock indexes are heavily concentrated in tech stocks
 - value investing (especially the notion of buying very cheap stocks) seems to be a reasonable idea
-- small cap value stocks outperform large cap growth stocks according to academia
-- consumer essentials did well during market crashes which seem more and more likely
-- healthcare and consumer essentials stocks seem undervalued
+- small cap value stocks outperform large cap growth stocks over long time horizons according to academia
+- consumer essentials did well during market corrections which seem more and more likely
+- healthcare and consumer essentials stocks generally seem undervalued
 
-This little portfolio is like a poor man's "super-cheap-mostly-consumer-essentials-and-healthcare-no-ai" index.
+This little group of stocks is like a poor man's "super-cheap-mostly-consumer-essentials-and-healthcare-no-ai" index.
 But then why wouldn't I just pick an ETF along these lines? Well, I didn't really find one but I didn't look that long.
 The above 15 stocks are likely too small of a sample to draw any conclusions from my results
 even years from now. Will I be able to say "hey, good job" or "oh you dumbass" after x years based on results?
@@ -102,29 +114,10 @@ Maybe. Maybe it is not that small of a sample - my intuition tells me it isn't b
 or at least a sign that I should study this topic more.
 
 I'm doing this in large part to learn and to force myself to think. To think about how and why I make decisions.
-I think it will help find and fix potential flaws in my decision making.
-
 As a continuation, I'd like to learn about the basics of quantitative analysis and implement
-something that can automatically recognize the stock price pattern that I was looking for in these purchases:
-steady long term growth (examined on a log scale!) with a large recent drop, the typical example here being FMC or Brown-Forman.
-Intuitively these look like very good investments, I'd like to gather meaningful data on this topic.
-
-Edit (2026.01):
-Since the original post, I extended my individual stock portfolio with the following companies:
-- Novo Nordisk
-- Roper technologies
-- Target
-- Hormel
-- Pernod Ricard
-- UnitedHealth
-- Baxter
-- Becton Dickinson
-- Gartner
-
-Their price charts are very similar: decades of steady growth (on a log scale!) with a significant drop recently.
-They are trading at fairly low P/E and and some at extremely low P/B (below 1).
-Intuitively, these should mean good buy opportunities. I'll try to explore these type of stocks more and start
-gathering real data and learn about ways of analyzing it.
+something that can automatically recognize the stock price pattern that I was looking for in these purchases.
+Also, I'd like to incorporate different types of fundamental data in the evaluation.
+I need to start gathering real data and learn about ways of analyzing it.
 
 [13f]: https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets
 [whale]: https://whalewisdom.com/
