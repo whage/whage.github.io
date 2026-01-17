@@ -108,10 +108,9 @@ The main reasons I chose these particular stocks:
 
 This little group of stocks is like a poor man's "super-cheap-mostly-consumer-essentials-and-healthcare-no-ai" index.
 But then why wouldn't I just pick an ETF along these lines? Well, I didn't really find one but I didn't look that long.
-The above 15 stocks are likely too small of a sample to draw any conclusions from my results
-even years from now. Will I be able to say "hey, good job" or "oh you dumbass" after x years based on results?
-Maybe. Maybe it is not that small of a sample - my intuition tells me it isn't but I'm not sure - and that's bad,
-or at least a sign that I should study this topic more.
+My little individual stock portfolio is likely too small of a sample (25 stocks as of jan. 2026) to draw meaningful
+conclusions from my results even years from now. Or maybe it isn't. Will I be able to say "hey, good job" or "oh you dumbass"
+after x years based on results? I don't know and that means I really should study statistics.
 
 I'm doing this in large part to learn and to force myself to think. To think about how and why I make decisions.
 As a continuation, I'd like to learn about the basics of quantitative analysis and implement
