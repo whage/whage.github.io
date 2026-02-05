@@ -27,17 +27,16 @@ Then eventually I got to work for such companies. It was always intriguing at fr
 but then slowly as I started to understand their processes and saw the piles of not-so-perfect software
 they created that magical feeling really faded away.
 
-I have to say that I met some genuinely nice and bright people, some of whom I kept as a friend
-till this day but many many of the people, if not most were just mediocre or even worse.
+I have to say that I met some genuinely nice and bright people, we even became good friends
+with some of them, but many of the people, if not most were just mediocre or even worse.
 Many of them didn't really care about the quality of the work they do or they simply didn't have
 the solid skills that I earlier, as an outsider always assumed.
 As a consequence, they also didn't really care if I went to great lengths to produce quality software.
 Not only did they not care, I think I was often seen by my peers and direct superiors as someone dull
 and slow because I asked many questions and didn't immediately pump out a quick but crappy solution.
-The "senior engineers", the "lead developers", the whoever were not the skilled, thorough, humble
+The "senior engineers", the "lead developers", "architechts" or whoever were not the skilled, thorough, humble
 people I hoped to meet, who would inspire me and help me grow.
-Very few people that I met at these places (although there were some) truly inspired
-me personally and professionally.
+Very few people that I met at these places truly inspired me personally and professionally.
 I'm not saying they are bad people, what I mean is that in those environments their attitude
 towards their work, towards their profession was not what I hoped to see.
 Most of them also were simply not my kind.
