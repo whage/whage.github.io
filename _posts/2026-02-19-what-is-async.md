@@ -10,7 +10,7 @@ for IO (Input/Output). That is, system calls (services provided by the operating
 for you in a non-blocking way, meaning they don't block you after you made your call, instead they return immediately
 and provide the data later, when it becomes available.
 
-What is "IO"? It roughly means accessing data from the disk (SSD these days) or the network or talking to peripherals.
+But what is "IO"? <!--more--> It roughly means accessing data from the disk (SSD these days) or the network or talking to peripherals.
 IO is something that is performed "outside" of the CPU. It is performed by different circuitry for reasons
 I only think I understand so I wont go into those. The CPU's internals are incredibly fast compared to the latencies of such
 outside circuitry. It has very different performance characteristics, so it makes sense to talk about operations
