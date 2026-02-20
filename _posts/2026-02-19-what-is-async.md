@@ -30,10 +30,9 @@ The key technology that underpins asynchronous I/O is a set of system calls:
 epoll, kqueue, IOCP (linux, MacOS, Windows respectively) and a low-level library that wraps them: libuv, but
 that is a much deeper topic.
 
-The Node.js runtime is single threaded. The asynchronous functions are only executed in a
-single thread unless extra worker threads are used. Their execution will inevitably overlap, in fact
-the whole idea is that while the CPU waits for I/O, some other code might be executed concurrently - 
-but not in parallel, that needs more than one thread.
-Being single threaded means that our Node.js code, all the callbacks run on a single hardware thread at an given point
-in time. There is nothing to schedule for other hardware threads so only one logical CPU core is utilized without
-extra worker threads.
+The Node.js runtime is "single threaded". This is a vague term and needs context: the typical Node.js server side
+application runs in a single thread, which means every web request is executed on a single thread.
+There is nothing to schedule for other hardware threads so only one logical CPU core is utilized without
+extra worker threads. This also means that logic requiring a lot of "pure CPU" time (image or video processing for example)
+without I/O operations will "block" (ironically) the execution of other web requests unless
+they are explicitly executed in a different thread.
