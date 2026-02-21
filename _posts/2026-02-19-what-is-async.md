@@ -18,24 +18,27 @@ the CPU can perform within itself (and btw operations that involve memory access
 though accessing memory is much much slower than doing things "inside" the CPU but still much faster than the circuitry
 involved in IO) and operations it can't. The operatins it can't perform within itself are referred to as IO (in my current understanding).
 
-In the traditional "blocking" mode, doing IO means requesting/sending data from/to the CPU and then having it wait ("block") until 
+In the traditional "blocking" or "synchronous" way, doing IO means requesting/sending data from/to the CPU and then having it wait ("block") until 
 the requested IO operation is finished. During that time the CPU is basically idle, but only for this given process - that's also an important note.
 The OS is free to switch to some other currently waiting process - this is the task of the scheduler - and execute some of the instructions
 associated with that othe process' thread(s).
 This is a very intricate play of scheduling on multiple levels: threads, below them processes and I didn't even mention the
 famous "event loop" that runs in a single thread of the Node.js runtime which is also a form of scheduling.
 
-With asynchronous IO your program can just request some IO operation and then
-the CPU can continue executing the current program's code if there is any, that doesn't depend on the IO operation that
+With asynchronous IO your program can just request some IO operation, then
+the CPU can continue executing code in the current program that doesn't depend on the IO operation that
 was just started. This is typically the case with server side web applications that handle many independent requests.
-This, in theory, should result in high CPU utilization.
-In the traditional synchronous model, the CPU would waste lots of its precious time waiting for IO unncessarily.
-Async IO tries to minimize the time the CPU spends waiting while there would be useful other tasks to perform.
+Code serving one request doesn't depend on the IO operation that was issued in the previous request.
+In the traditional synchronous model, the CPU would waste lots of its precious time waiting for IO unncessarily
+so synchronous IO is usually paired with multiple threads or processes to allow for concurrent execution.
+Async IO tries to minimize the time the CPU spends waiting and at the same time avoid the overhead of scheduling multiple threads (or processes which are even "heavier").
+There are other types of performance costs and complexity involved in managing the asyncronous routines inside the kernel,
+but my knowledge ends here at the moment, I might dig deeper into the topic later.
 
 Web servers based on blocking IO utilize multiple threads (hundreds, maybe thousands?)
 and possible even multiple processes (like php's process pool) to handle concurrent web requests.
 There are tradeoffs: switching between threads and especially processes are costly operations in terms of CPU time,
-but they could be beneficial for certain types of workloads.
+but they can be beneficial for certain types of workloads.
 
 It is worth pointing out that there is nothing Node.js-specific in the concept of asynchronous IO. Node.js is just one of
 the most well known languages where the the standard library is based on the asynchronous IO paradigm.
@@ -47,6 +50,6 @@ that is a much deeper topic.
 The Node.js runtime is "single threaded". This is a vague term and needs context: the typical Node.js server side
 application runs in a single thread, which means every web request is executed on a single thread.
 There is nothing to schedule for other hardware threads so only one logical CPU core is utilized without
-extra worker threads. This also means that logic requiring a lot of "pure CPU" time (image or video processing for example)
+extra worker threads. This also means that logic requiring a lot of "pure CPU" time (image & video processing or heavy math for example)
 without IO operations will "block" (ironically) the execution of other web requests unless
 they are explicitly executed in a different thread.
