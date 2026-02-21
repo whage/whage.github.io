@@ -16,6 +16,8 @@ The cost of owning AI-related businesses have increased. They became so expensiv
 that they might no longer be a reasonable investment despite the obvious positive outlook
 of the AI economy.
 
+<!--more-->
+
 This feels strange. Here we have something that looks like the next big thing and yet it seems
 too expensive as an investment.
 There might be other opportunities in the AI ecosystem besides investing our money in it.
