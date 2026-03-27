@@ -6,9 +6,13 @@ categories: programming, hardware
 ---
 
 The key feature of asynchronous runtimes like that of Node.js is that they utilize so called non-blocking OS APIs
-for IO (or I/O Input/Output). That is, system calls (services provided by the operating system kernel) that handle input and output
-for you in a non-blocking way, meaning they don't block you after you made your call, instead they return immediately
-and provide the data later, when it becomes available.
+for IO (Input/Output). That is, system calls (services provided by the operating system kernel) that handle input and output
+for you in a non-blocking way. Non-blocking here means they don't stop the execution flow in the calling application for the duration of the 
+I/O operation, instead they let the calling code continue right after starting the operation and will get back or "call back"
+to the caller later when it is finished. Before you start worrying, no, it doesn't mean it will just randomly interrupt the calling program,
+instead the caller has to provide a piece of code (usually in the form of a function, the "callback"!) that the asynchronous
+I/O operation can call when it is finished, and yes, this requires a kind of control loop (the event loop) in which
+your program is "embedded" that is continuously looking for new I/O data becoming available and calling the provided callbacks with that data.
 
 But what is "IO"? <!--more--> It roughly means accessing data from the disk (SSD these days) or the network or talking to peripherals.
 IO is something that is performed "outside" of the CPU. It is performed by different circuitry for reasons
