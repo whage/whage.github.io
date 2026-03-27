@@ -9,6 +9,8 @@ I just realised how to reproduce it and the likely cause.
 It happens when I start scrolling back in the output history.
 It only affects lines that have been "repainted" (right term?) by tmux when you scroll up.
 
+<!--more-->
+
 I suppose it is because tmux adds a little panel at the top right corner showing some timestamp and the
 line counter in the history:
 
