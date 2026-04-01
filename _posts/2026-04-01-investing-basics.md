@@ -51,4 +51,14 @@ This post is only meant to lay the foundations, you have the internet at your di
 If there is one chart you should look at then it is one: [it's the S&P 500 over the last 75 years][sp500-over-75].
 There is a lot to learn from this chart so spend some time studying it.
 
+### Highly recommended sources
+
+If you are looking for a light, easy to consume, yet very informative source of personal finance knowledge then
+go check out [Damien Jordan's channel][damien-jordan] on YouTube.
+
+If you already know the basics, value scientific rigor and want to learn about more advanced concepts, then
+go find [Ben Felix on YouTube][ben-felix]
+
 [sp500-over-75]: https://upload.wikimedia.org/wikipedia/commons/7/73/S%26P_500_Max_Min_Log_Chart_to_Jan_2026_with_Trend_and_other_plots.svg
+[damien-jordan]: 
+[ben-felix]: 
