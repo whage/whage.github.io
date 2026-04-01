@@ -38,13 +38,13 @@ This post is only meant to lay the foundations, you have the internet at your di
 1. You are almost guaranteed to make significant gains in 10-20 years time in the stock market
 1. Even though bonds pay fixed interest and so are viewed as a safer asset, the price of bonds is not static, they do change, sometimes by a lot
 1. A diversified portfolio of stocks is better for your long-term results than bonds and bonds are better than holding cash
-1. There is no free lunch: people claiming to know easy&simple strategies that consistently make you even just a few percent more than that are lying - if they did, they'd be doing it instead of selling this "knowledge"
+1. There is no free lunch: people claiming to know easy&simple strategies that consistently make you even just a few percent more are lying - if they did, they'd be doing it instead of selling this "knowledge"
 1. When people say "the market", they refer to a broad, diversified index (most commonly the S&P 500 or the FTSE 100
 1. 80-90% of actively managed investment funds underperform the market
 1. yes.
 1. I'll repeat that: 80-90% of ALL investment funds available to the public in the world - institutional, expert investors handling your money - underperform the market, the same market that you can invest in essentially for free
 1. There are people / firms known to have outperformed the passive investing style ("beaten the market") consistently for decades, but even their returns are only in the 10-20% yearly range and it is very rare
-1. Good investment advice isn't about "in what asset to invest your money" but about "how to do it in a disciplined way" and that prepares you for the possible and likely outcomes
+1. Good investment advice isn't about "what asset to invest your money in" but about "how to do it in a disciplined way" and that prepares you for the possible and likely outcomes
 1. Your biggest investing enemies are your own greed and your fear of temporarily losing money
 1. Your "human capital" is the amount of money you will be able to earn (with work) during your lifetime. It is of paramount importance to try and increase your human capital- by studying and learning. It will be the basis of your investments
 
