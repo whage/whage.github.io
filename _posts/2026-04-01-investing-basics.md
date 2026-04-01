@@ -29,9 +29,9 @@ This post is only meant to lay the foundations, you have the internet at your di
 1. Many people are doing this style of investing, you should too, it is delightfully simple
 1. An index ETF is an easily tradeable asset. It's a large mix (a couple hundred) of stocks or bonds defined by an "index" - a group of companies defined by a set of rules (like "the 500 largest companies in the US" or "The 100 largest companies in the world" or "the top 600 mid-sized companies")
 1. A realistic nominal expected average yearly return is around 9% in the world's leading currencies (USD, EUR) based on 100+ year historical data. This is what you can realistically expect
+1. The currency matters because inflation matters a lot - a **9% nominal** yearly return translates to about **5-6% real** returns in EUR or USD
 1. There are 2 main categories of tradable financial assets ("securities"): stocks which represent ownership of a company and bonds which represent a loan and which pay fixed interest
 1. Throughout history, the stock market has the highest average yearly returns, not bonds, not gold, not real estate
-1. The currency matters because inflation matters a lot - a **9% nominal** yearly return translates to about **5-6% real** returns in EUR or USD
 1. The price of individual stocks fluctuate wildly
 1. Diversification results in less volatility, but doesn't eliminate it, which means there could be - potentially long - periods of time when the current value of your investment is less than it was before, but history shows that in the long run, stock markets keep rising and outperform all other asset classes
 1. You should not be surprised if you lose money in 1-2 year terms in the stock market
