@@ -24,7 +24,7 @@ doesn't require one to involve and pay for an expert.
 An important note: it is perfectly fine if you are not familiar with some of the concepts mentioned.
 This post is only meant to lay the foundations, you have the internet at your disposal, go and learn about the stuff you don't know yet.
 
-1. Proper investing can be done **for free** on many platforms on the internet regardless of how little money you have - you can start investing 1€ for free right now
+1. Proper investing can be done **for free** on many platforms on the internet regardless of how little money you have - you can start investing 1€ for free right now completely legally in a safe, regulated environment
 1. Investing is really a solved game: a widely accepted view that is supported by massive evidence is that completely passive investing using index ETFs will produce the best results
 1. Many people are doing this style of investing, you should too, it is delightfully simple
 1. An index ETF is an easily tradeable asset. It's a large mix (a couple hundred) of stocks or bonds defined by an "index" - a group of companies defined by a set of rules (like "the 500 largest companies in the US" or "The 100 largest companies in the world" or "the top 600 mid-sized companies")
