@@ -44,7 +44,7 @@ This post is only meant to lay the foundations, you have the internet at your di
 1. yes.
 1. I'll repeat that: 80-90% of ALL investment funds available to the public in the world - institutional, expert investors handling your money - underperform the market, the same market that you can invest in essentially for free
 1. There are people / firms known to have outperformed the passive investing style ("beaten the market") consistently for decades, but even their returns are only in the 10-20% yearly range and it is very rare
-1. Good investment advice is never about "in what asset to invest your money" but about "how to do it in a disciplined way"
+1. Good investment advice is never about "in what asset to invest your money" but about "how to do it in a disciplined way" and that prepares you for the possible and likely outcomes
 1. Your biggest investing enemies are your own greed and your fear of temporarily losing money
 1. Your "human capital" is the amount of money you will be able to earn (with work) during your lifetime. It is of paramount importance to try and increase your human capital- by studying and learning. It will be the basis of your investments
 
