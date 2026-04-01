@@ -40,3 +40,4 @@ doesn't require one to involve and pay for an expert.
 1. There are people / firms known to have outperformed the passive investing style ("beaten the market") consistently for decades, but even their returns are only in the 10-20% yearly range and it is very rare
 1. Good investment advice is never about "in what asset to invest your money" but about "how to do it in a disciplined way"
 1. Your biggest investing enemies are your fear of temporarily losing money and your own greed
+1. Your "human capital" is the amount of money you will be able to earn (with work) during your lifetime. It is of paramount importance to try and increase your human capital- by studying and learning. It will be the basis of your investments
