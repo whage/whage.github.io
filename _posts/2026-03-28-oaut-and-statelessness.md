@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "JWT: statelessness and refresh tokens"
+title:      "OAuth: statelessness and refresh tokens"
 date:       2026-03-28 15:00:00 +0100
 categories: software, auth, security
 ---
