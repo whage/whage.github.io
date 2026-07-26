@@ -19,7 +19,7 @@ them is directly related to the quality & usefulness of the resulting software. 
 Code written by LLMs prompted by the wrong person is not just lower quality, it is disaster waiting to happen.
 Open source software projects started banning LLM authored contributions. Bug bounty programs are being closed down.
 The experts of the software industry are fed up with LLM written slop.
-Serious software ompanies should really start to worry about the "career pipeline" being choked. 
+Serious software companies should really start to worry about the "career pipeline" being choked. 
 
 Related is the recent selloff of software company stocks around the world, which I believe presents
 an excellent buying opportunity for us. The popular narrative is that AI and LLMs will make it much easier
