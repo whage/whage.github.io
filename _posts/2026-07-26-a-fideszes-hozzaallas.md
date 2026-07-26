@@ -5,7 +5,7 @@ date:       2026-07-26 11:00:00 +0100
 categories: politika
 ---
 
-Ahogy hallgattam a 2026-os tusványosi riportokat a mostmár kormánypárti médiából, nagyon
+Ahogy hallgattam a 2026-os tusványosi riportokat, nagyon
 elgondolkodtatott a következő mondat, ami Deák Dániel szájából hangzott el:
 
 > Érződik, hogy megindult a jobb oldalon belül egy vita azzal kapcsolatosan, hogy mégis hogyan
@@ -13,6 +13,8 @@ elgondolkodtatott a következő mondat, ami Deák Dániel szájából hangzott e
 > hogy mégis 2030-ban milyen módon lehet nekifutni a választásnak.
 >
 > https://www.youtube.com/watch?v=UXUMK5SjU4U
+
+<!--more-->
 
 Hasonló kijelentéseket rengeteget hallunk mostanában:
 - fennmaradhat-e még a FIDESZ
