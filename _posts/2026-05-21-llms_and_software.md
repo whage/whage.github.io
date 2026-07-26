@@ -30,5 +30,5 @@ My conclusion: producing, maintaining and operating good software requires real 
 no statistical model can replace. People will eventually figure this out. LLMs won't take software engineers'
 work and they won't push software companies out of the market. I think it's the opposite: they will empower
 the ones who have the skills and the fundamentals. The others, who think anyone can create serious software
-with LLMs will fail spectacularly when the LLM coded spaghetti codebases will eventually be maintained,
-audited for security and operated.
+with LLMs will fail spectacularly when the LLM-assisted, vibe-coded spaghetti codebases will eventually
+need to be maintained, audited for security and operated.
