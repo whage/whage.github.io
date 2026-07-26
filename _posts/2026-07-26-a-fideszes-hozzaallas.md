@@ -5,7 +5,7 @@ date:       2026-07-26 11:00:00 +0100
 categories: politika
 ---
 
-Ahogy hallgattam a 2026-os tusványosi riportokat, nagyon
+Ahogy hallgattam egy 2026-os tusványosi összefoglalót, nagyon
 elgondolkodtatott a következő mondat, ami Deák Dániel szájából hangzott el:
 
 > Érződik, hogy megindult a jobb oldalon belül egy vita azzal kapcsolatosan, hogy mégis hogyan
