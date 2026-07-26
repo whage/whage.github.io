@@ -46,6 +46,6 @@ Nem vagyok elég jártas a témában, hogy szebben megfogalmazzam, mire is gondo
 és egészen új fényben látom ezeket a "mit tegyen a FIDESZ" kérdéseket és még undorítóbbnak
 látom az egész bűnbanda hozzáállását.
 Továbbra sem látok egyenes beszédet vagy őszinte válaszokat, röhelyes az egész amit művelnek és 
-mindennek a tetejébe még arról megy az értekezés, hogy "vajon hogy lenethe ez az egész újra a miénk".
+mindennek a tetejébe még arról megy az értekezés, hogy "hogy lehetne ez az egész újra a miénk".
 
 Jaj de örülök, hogy nem velük folytatjuk.
