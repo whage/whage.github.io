@@ -40,7 +40,7 @@ hogy mi módon juthatnának megint vissza a korábbi pozíciójukba.
 
 Ez nem egy bajnokság, amit meg kell nyerni, ahol el kell nyerni az elsőnek járó díjat.
 Nem megverni kell az ellenfelet. A politikusoknak a lehető legjobban kellene a dolgukat végezni
-szakmailag, emberileg, hogy kiérdeljék egy ország vezetésének a **feladatát**, nem a haszonélvezeti jogát.
+szakmailag, emberileg, hogy kiérdemeljék egy ország vezetésének a **feladatát**, nem a haszonélvezeti jogát.
 
 Nem vagyok elég jártas a témában, hogy szebben megfogalmazzam, mire is gondolok, de ez most nagyon elgondolkodtatott
 és egészen új fényben látom ezeket a "mit tegyen a FIDESZ" kérdéseket és még undorítóbbnak
