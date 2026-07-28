@@ -37,12 +37,17 @@ One potential half-solution are "refresh tokens". Refresh tokens are stateful be
 stored at the server - an important distinction.
 The normal access tokens expire fast (5-15 minutes maybe) so if they get stolen they quickly become useless.
 Refresh tokens have a long lifespan: often weeks.
-"Well I'll just use the stolen refresh token", I hear you laugh. But the refresh token is only accepted
-for the (example) `/refresh` endpoint. You'd have to get a new access token to use the other endpoints.
-You can do that for the relatively short time with your stolen access token but as soon as someone notices
-they have a chance to lock you out by revoking it - marking it as "invalid" on the server.
+"Well I'll just use the stolen refresh token", I hear you laugh. The refresh token gives access only to
+the `/token` endpoint where it can be exchanged for a new access token. This alone is not much of a protection but
+identity providers have other mechanisms to mitigate the risks of a stolen refresh token:
+- they require "confidential clients" to submit their client secret alongside the refresh token
+- for "public clients", the refresh token is rotated each time it is used and as soon
+as a "double use" is detected (the user and the attacker both trying to use it, unaware of each other),
+the latest refresh token is immediately revoked - the user can log in again, but the attacker's
+stolen token becomes worthless.
+Still, a refresh token should be considered highly sensitive and should be kept secret.
 
-This saves resources: You lose "pure" statelessness because you have to hit the database once every 5-15 minutes
+The refresh token mechanism saves resources: You lose "pure" statelessness because you have to hit the database once every 5-15 minutes
 (when the token expires). However, hitting the DB once every 15 minutes is much better for performance
 than hitting it for every single API call (which could be a lot more).
 
