@@ -11,25 +11,32 @@ Nem egyszer történt, hogy egy programozási problémára sehogy sem tudtam ele
 
 2 things:
 - good enough results
-- there is no perfect tool, sometimes there is no such tool at all - make it and get the job done!
+- there is no perfect tool, sometimes there is no such tool at all - make it and get the job done
 
 
 - strip-built kayak (Guillemot Kayaks)
 - tally ho
 
 - similarities between woodworking and software development
-	- often using multiple different tools for the same job because none of them is perfect!
+	- often using multiple different tools for the same job because none of them is perfect
 	- coming up with smart solutions
 	- using tools in unconventional ways to solve difficult problem
 	- crafting your own tools
 	- no shame in using brute force, sometimes it is the best
-	- there are imperfections! sometimes big ones! we tend to assume that every third party component should just work under all circumstances. Often, there are gaping holes in things! Don't be scared of them, think about them and find a good-enough solution!
+	- there are imperfections sometimes big ones we tend to assume that every third party component should just work under all circumstances.
+	  Often, there are gaping holes in things. Don't be scared of them, think about them and find a good-enough solution
 - the importance of tools and materials that bend and stick and stretch and generally leave a huge mess behind
 	- screws, nails, tar, glue, paint, duct tape, whatever
-	- those are usually not part of the finished product! **true?**
-	- yes, you become dirty in the process (think leftover debug code all over the place, test suites that go beyond in-memory mock objects, lots of test data) but once you are finished you just clean it all up
-- there are imperfections all the time!
-	- each intermediate stage is slightly off from the plans. so what? adjust and move on! this happens all the time!
+	- those are usually not part of the finished product **true?**
+	- yes, you become dirty in the process 
+	- examples:
+		- debug code all over the place
+		- test suites that go beyond in-memory mock objects
+		- lots of test data
+		- utility scripts to tests that call multiple services to test the flow ofdata
+	- once you are finished you just clean it all up
+- there are imperfections all the time
+	- each intermediate stage is slightly off from the plans. so what? adjust and move on this happens all the time
 
 Leo mentions
 > It's accurate to within a 1/16th of an inch
