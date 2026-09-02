@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "LLMs and software"
+title:      "LLMs and software development"
 date:       2026-05-21 16:00:00 +0100
 categories: LLM, software
 ---
@@ -26,9 +26,9 @@ an excellent buying opportunity for us. The popular narrative is that AI and LLM
 to produce software, they will lower the barrier of entry and thus the large software companies will have
 a much smaller edge in the business.
 
-My conclusion: producing, maintaining and operating good software requires real skills and judgement that
+Poducing, maintaining and operating good software requires real skills and judgement that
 no statistical model can replace. People will eventually figure this out. LLMs won't take software engineers'
 work and they won't push software companies out of the market. I think it's the opposite: they will empower
 the ones who have the skills and the fundamentals. The others, who think anyone can create serious software
 with LLMs will fail spectacularly when the LLM-assisted, vibe-coded spaghetti codebases will eventually
-need to be maintained, audited for security and operated.
+need to be maintained, extended, operated and audited.
