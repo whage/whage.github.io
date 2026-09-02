@@ -18,7 +18,7 @@ intended behavior and actual behavior, can point out cases where potential bugs 
 hiding and can suggest advanced performance optimizations. Their capabilities are truly
 amazing.
 
-I see some very real issues with using coding agents but I'm very excited about the opportunities.
+I see some very real issues with using coding agents but I'm excited about the opportunities.
 I have a strong belief that there are "Wrong ways" and "Right Ways" of using them, each leading
 to vastly different outcomes both in terms of the quality of the software produced and in terms
 of the impact on the person's skills using the agent. I believe the way we use them can lead to
