@@ -5,8 +5,7 @@ date:       2026-09-02 11:00:00 +0100
 categories: learning, software
 ---
 
-In august 2026 I couldn't resist the temptation anymore and bought a Claude Pro license.
-for 18€/month.
+In august 2026 I couldn't resist the temptation anymore and bought a Claude Pro license for 18€/month.
 I'm very cautious about using AI in my work. Previous to this "upgrade" I only used Gemini
 and ChatGPT since early 2026 via the browser UI to ask questions about certain technologies, software
 concepts and asked for short, mostly trivial but otherwise google-heave snippets of code
