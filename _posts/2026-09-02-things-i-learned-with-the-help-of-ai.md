@@ -8,8 +8,8 @@ categories: learning, software
 In august 2026 I couldn't resist the temptation anymore and bought a Claude Pro license for 18€/month.
 I'm very cautious about using AI in my work. Previous to this "upgrade" I only used Gemini
 and ChatGPT since early 2026 via the browser UI to ask questions about certain technologies, software
-concepts and asked for short, mostly trivial but otherwise google-heave snippets of code
-that a then manually added to my codebase.
+concepts and asked for short, mostly trivial but otherwise google-heavy snippets of code
+that I then manually added to my codebase.
 Letting a real "agent" loose around my codebase was a profound experience.
 
 As of september 2026, the leading models are incredibly capable. They familiarize themselves
