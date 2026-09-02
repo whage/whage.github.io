@@ -19,7 +19,7 @@ hiding and can suggest advanced performance optimizations. Their capabilities ar
 amazing.
 
 I see some very real issues with using coding agents but I'm excited about the opportunities.
-I have a strong belief that there are "Wrong ways" and "Right Ways" of using them, each leading
+I have a strong belief that there are "Wrong Ways" and "Right Ways" of using them, each leading
 to vastly different outcomes both in terms of the quality of the software produced and in terms
 of the impact on the person's skills using the agent. I believe the way we use them can lead to
 huge long term gains or huge long term losses.
