@@ -29,4 +29,3 @@ things that a coding agent already helped me learn, things that
 probably would have taken much longer without them:
 1. OAuth2, SSO and Keycloak
 1. setting up a remote debugger with VS Code
-1. 
