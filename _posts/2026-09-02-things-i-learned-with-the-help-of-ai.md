@@ -12,6 +12,8 @@ concepts and asked for short, mostly trivial but otherwise google-heavy snippets
 that I then manually added to my codebase.
 Letting a real "agent" loose around my codebase was a profound experience.
 
+<!--more-->
+
 As of september 2026, the leading models are incredibly capable. They familiarize themselves
 with extensive codebases in the matter of minutes, can understand the difference between
 intended behavior and actual behavior, can point out cases where potential bugs can be
