@@ -3,6 +3,7 @@ layout:     post
 title:      "a FIDESZ-es hozzáállás"
 date:       2026-07-26 11:00:00 +0100
 categories: politika
+published: false
 ---
 
 Ahogy hallgattam egy 2026-os tusványosi összefoglalót, nagyon

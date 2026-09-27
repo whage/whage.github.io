@@ -4,6 +4,7 @@ title:  "Writing crawlers"
 date:   2013-05-20 22:00:00 +0100
 categories: php
 tags: web crawler curl
+published: false
 ---
 
 I'm currently reading the book called 'Webbots, spiders and screen scrapers - a guide to developing internet agents with PHP' by Michael Schrenk and I really enjoy it partly because it is something new to me and partly because the author seems to pay attention to many small details. I have certainly seen cleaner code than in the book but it makes good points and shows simple yet useful examples.
