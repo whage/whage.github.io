@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: András Sallai
-description: I wanted to speak, I wanted to say <br />
+description: I wanted to speak, I wanted to say    # ends with 2 or more spaces: line break
   but all these different words got in the way
 
 baseurl: "" # the subpath of your site, e.g. /blog
