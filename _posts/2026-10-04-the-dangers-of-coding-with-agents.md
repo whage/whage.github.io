@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "The dangers off coding with agents"
+title:      "The dangers of coding with agents"
 date:       2026-10-04 11:00:00 +0100
 categories: AI, agents
 ---
