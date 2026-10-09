@@ -10,7 +10,7 @@ to really understand something are truly rewarded when it comes to reading just 
 So often I stumble upon a peace of documentation looking for something specific
 that is "probably down there somewhere if I just scroll down more".
 
-<!-- more -->
+<!--more-->
 
 What usually happens is I find what I'm looking for and leave the page immediately.
 What only seldom happens is I remind myself to be patient, start reading from the beginning

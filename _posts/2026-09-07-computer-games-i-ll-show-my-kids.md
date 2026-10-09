@@ -10,6 +10,8 @@ would be the least harmful for a child:
 Games where there is a clear frame: there is a beginning, a clear story line and an ending.
 Games that are like an interactive book.
 
+<!--more-->
+
 If I think back to my childhood, the games that bring back the fondest memories are:
 - Warcraft III
 - Age of Empires

@@ -10,6 +10,8 @@ My experience with learning is that I rarely progress directly towards my goal.
 Instead, as I'm learning, reading about a topic my undertanding starts down on
 different paths and hopefully at the end they will converge.
 
+<!--more-->
+
 I like to imagine it as a sea. On either side of the sea are pieces of land,
 one is where I stand - the state where I don't know anything about a topic
 and the other is where I have a usable understanding.
