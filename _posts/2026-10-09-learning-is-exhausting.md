@@ -47,4 +47,11 @@ itself across the sea. It is not straight at all, there are lots of turns, valle
 mountains, but now there is a clear path to the other piece of land.
 Somehow the pieces of the puzzle came together and now I understand.
 
+Finding the path after months or years of trying is an
+almost euphoric feeling. Learning is very rewarding, even addictive to some degree.
+
+> And that is an encouraging thought
+
+as Gandalf said.
+
 This is a reminder not to give up. With enough work, the path will show itself.
