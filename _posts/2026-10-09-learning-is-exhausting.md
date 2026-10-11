@@ -19,10 +19,9 @@ and the other is where I have a usable understanding.
 When I start learning, I feel like small islands start to grow out of the water,
 slowly, all over the map.
 They are tiny at first but they grow larger and larger. Not at the same rate though. 
-Some stay tiny for a long time, others grow quite large.
+Some stay tiny for a long time, others grow larger quickly.
 I can't yet get anywhere because there is no land between them but
-I'm starting to see some structure. I see some has lots of coconut trees, another
-a lagoon, yet another a waterfall.
+I'm starting to see some structure.
 
 The goal is still out of sight but there is a clear pattern: there is more and more
 land wher I'll be able to go eventually.
