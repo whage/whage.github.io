@@ -16,12 +16,9 @@ I like to imagine it as a sea. On either side of the sea are pieces of land,
 one is where I stand - the state where I don't know anything about a topic
 and the other is where I have a usable understanding.
 
-This analogy only works if there are no boats to sail, which is unfortunate because I find
-them majestic. Every nautical metaphor should have a sailboat in it. This one doesn't.
-
 When I start learning, I feel like small islands start to grow out of the water,
 slowly, all over the map.
-They are tiny at first but they grow steadily. Not at the same rate though. 
+They are tiny at first but they grow larger and larger. Not at the same rate though. 
 Some stay tiny for a long time, others grow quite large.
 I can't yet get anywhere because there is no land between them but
 I'm starting to see some structure. I see some has lots of coconut trees, another
