@@ -40,11 +40,11 @@ I get desperate and feel that I've hit a wall.
 
 Then, eventually, with more work and perseverance a path might reveal
 itself across the sea. It is not straight at all, there are lots of turns, valleys,
-mountains, but now there is a clear path to the other piece of land.
+mountains, but now there is a path to the other piece of land.
 Somehow the pieces of the puzzle came together and now I understand.
 
 Finding the path after months or years of trying is an
-almost euphoric feeling. Learning is very rewarding, even addictive to some degree.
+almost euphoric feeling and so learning is very rewarding, even addictive to some degree.
 
 > And that is an encouraging thought
 
