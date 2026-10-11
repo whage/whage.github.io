@@ -23,8 +23,8 @@ Things like how to frame a certain topic or a question. Or what the right way is
 about a certain problem space and how professionals working in the field think about it.
 A good example is reading MySql or PostgreSQL documentation. I always learn something I wasn't
 looking for when visiting those docs.
-Or basically any good software with high quality documentation that starts off by
-detailing the problem space that the software is there to solve.
+Or man pages! Oh man, man pages... we always just look for a single flag but the description at the top
+is often a treasure trove of information.
 
 These parts are not the piece of information we are looking for but they can teach us much
 more than just that one bit that we needed.

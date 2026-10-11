@@ -1,14 +1,14 @@
 ---
 layout:     post
-title:      "Learning is exhausting and painful"
+title:      "Learning is exhausting"
 date:       2026-10-09 16:00:00 +0100
 categories: learning
 ---
 
 Learning is exhausting and often painful. It has to be practiced. It has to be endured.
 My experience with learning is that I rarely progress directly towards my goal.
-Instead, as I'm learning, reading about a topic my undertanding starts down on
-different paths and hopefully at the end they will converge.
+Instead, as I'm learning, my undertanding starts down on different paths simultaneously
+and converges somewhere around the goal much later.
 
 <!--more-->
 
