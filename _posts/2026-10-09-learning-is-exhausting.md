@@ -26,7 +26,7 @@ I'm starting to see some structure.
 The goal is still out of sight but there is a clear pattern: there is more and more
 land wher I'll be able to go eventually.
 
-As I keep reading or listaning and as I work through examples and exercises
+As I keep reading and as I work through examples and exercises,
 even more land rises and some islands now be come connected with each other.
 Some concept becomes tractable - I'm not sure yet how they'll fit the big picture
 but it is starting to make sense.

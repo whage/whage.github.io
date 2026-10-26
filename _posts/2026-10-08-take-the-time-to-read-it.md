@@ -8,7 +8,7 @@ categories: reading, documentation
 Lately, I've been noticing more and more often that focused attention and a conscious effort
 to really understand something are truly rewarded when it comes to reading just about anything.
 So often I stumble upon a peace of documentation looking for something specific
-that is "probably down there somewhere if I just scroll down more".
+that is "probably there somewhere if I just scroll down more".
 
 <!--more-->
 
