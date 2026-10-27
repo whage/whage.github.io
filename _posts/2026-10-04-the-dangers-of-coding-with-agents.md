@@ -18,3 +18,13 @@ become serious issues.
 		- subtle bugs it found that were unknown previously
 		- related issues
 		- edge cases that would almost never happen
+- lack of attention, neglect
+	- not reviewing and pushing back on overengineered results
+- lack of comprehension and learning
+	- letting code slip through without understanding it
+
+> Previously, skill devlopment and learning were bundled with the process of creating a software product.
+> You write, review, debug code and you learn.
+> Now learning and creating are unbundled.
+>
+> Tech Veteran - https://www.youtube.com/watch?v=pQPUWJK229c
