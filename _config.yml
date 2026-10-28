@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: András Sallai
-description: |
+description: |-
   I wanted to speak, I wanted to say
   but all these different words got in the way
 
